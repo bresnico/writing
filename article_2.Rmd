@@ -5,13 +5,17 @@ date: "généré le 19 décembre 2020"
 output: 
   bookdown::word_document2:
     citation_package: none
-    reference_docx: "template/template.docx"
+    reference_docx: "template/article_2_template.docx"
     toc: false
-  bookdown::html_document2:
-    citation_package: none
-    toc: false
-  bookdown::pdf_document2:
-    keep_tex: false
+knit: (function(input, ...) {
+    rmarkdown::render(
+      input,
+      output_file = paste0(
+        "output/","article_2_", format(Sys.time(), '%Y%m%d'), '.docx'
+      ),
+      envir = globalenv()
+    )
+  })
 ---
 
 # Auteurs (ordre à déterminer rapidement)

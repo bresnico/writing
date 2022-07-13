@@ -8,14 +8,18 @@ toc-title: "Table des matières"
 output: 
   bookdown::word_document2:
     toc: true
-    reference_docx: "template/template.docx"
-  bookdown::html_document2:
-    toc: true
-  bookdown::pdf_document2:
-    keep_tex: true
-bibliography: library_phd.bib
-knit: knitnbr::knit_date_output
-csl: apa.csl
+    reference_docx: "template/article_1_template.docx"
+bibliography: "bib/library_phd.bib"
+knit: (function(input, ...) {
+    rmarkdown::render(
+      input,
+      output_file = paste0(
+        "output/","article_1_", format(Sys.time(), '%Y%m%d'), '.docx'
+      ),
+      envir = globalenv()
+    )
+  })
+csl: "style/apa.csl"
 ---
 
 <!--

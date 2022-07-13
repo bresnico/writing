@@ -1,0 +1,23 @@
+---
+title: "Article 4"
+subtitle: "intervention"
+author: "Nicolas Bressoud"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+lang: fr
+toc-title: "Table des matières"
+output: 
+  bookdown::word_document2:
+    toc: true
+    reference_docx: "template/article_4_template.docx"
+bibliography: "bib/library_phd.bib"
+knit: (function(input, ...) {
+    rmarkdown::render(
+      input,
+      output_file = paste0(
+        "output/","article_4_", format(Sys.time(), '%Y%m%d'), '.docx'
+      ),
+      envir = globalenv()
+    )
+  })
+csl: "style/apa.csl"
+---
