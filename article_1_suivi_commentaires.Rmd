@@ -1,0 +1,195 @@
+---
+title: "Le bonheur d'enseigner est-il enseignable ? (Revue PHRONESIS)"
+subtitle: "Suivi des commentaires des personnes chargées de la révision - Annexe"
+author: "Nicolas Bressoud"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+lang: fr
+toc-title: "Table des matières"
+output: 
+  bookdown::word_document2:
+    toc: true
+    reference_docx: "template/article_1_template.docx"
+bibliography: "bib/library_phd.bib"
+knit: (function(input, ...) {
+    rmarkdown::render(
+      input,
+      output_file = paste0(
+        "output/","article_1_revision_suivi_commentaires_", format(Sys.time(), '%Y%m%d'), '.docx'
+      ),
+      envir = globalenv()
+    )
+  })
+csl: "style/apa.csl"
+---
+
+Ce document constitue l'annexe à la version révisée de l'article.
+Il reprend, dans leur ordre d'apparition, chaque commentaire des personnes chargées de la révision.
+En lien avec chaque élément, il précise, contextualise et synthétise les révisions apportées à l'article.
+
+La présente synthèse se base sur la grille de synthèse des évaluations à l'avaeugle communiquée par info@revue-phronesis.com le 10 juin 2022.
+
+# Décision de l'équipe de coordination du numéro
+
+Article accepté pour publication sous réserve de la prise en compte par l’auteur des demandes de corrections majeures transmises par les évaluateurs.
+
+# Décision du comité de rédaction de la revue
+
+Votre article révisé et complet (incluant résumés en français et en anglais, titre en français et en anglais, mots-clés en français et en anglais) devra nous parvenir au plus tard pour le 30 septembre 2022.
+Merci également de nous transmettre vos coordonnées complètes : institutions d’appartenance et adresses électroniques professionnelles.
+
+# Synthèse des modifications apportées au document
+
+## Appréciation générale de l'article
+
+### Commentaire 1-1 (EVA1)
+
+Ce texte s’inscrit parfaitement dans la thématique du numéro « Du bien-être des professeurs au bonheur d’enseigner : le savoir-relation dans la formation des enseignants ». La perspective de l’auteur semble originale non seulement parce qu’elle s’inspire d’un institut de formation des enseignants de Suisse romande mais parce que l’auteur aborde la question du bonheur d’enseigner en mettant en lien cette notion du bonheur avec le bien-être appréhendé clairement sous l’angle de l’épanouissement. Ce faisant il déploie de manière rigoureuse son argumentation à partir du modèle PERMA. On pourrait toutefois reprocher à l’auteur de n’avoir pas décliné d’emblée la signification de cet acronyme que l’on découvre seulement à la page 5. Le document respecte les règles académiques de présentation d’un texte scientifique.
+
+### Commentaire 1-1 - Réponse et modifications apportées
+
+...
+
+### Commentaire 1-2 (EVA2)
+
+De manière générale ce texte manipule trop de concepts ce qui empêche d’en tirer l’essence des relations. Beaucoup des assertions sur ces relations mériteraient des traitements plus fouillés. Comme le sous-titre l’indique il s’agit de réflexions, et précisément, le texte laisse une impression d’heuristique.
+
+### Commentaire 1-2 - Réponse et modifications apportées
+
+...
+
+## Structure du texte
+
+### Commentaire 2-1 (EVA1)
+
+Le texte comporte une introduction mais on aurait souhaité que l’auteur annonce le plan de rédaction de son article à la fin de cette introduction. En revanche l’auteur de donne pas explicitement une conclusion alors que le point 6 aurait pu faire office de conclusion. Il y a certes une cohérence d’ensemble entre les parties mais on aurait tout de même souhaité avoir des transitions entre ces parties afin de mieux guider le lecteur
+
+### Commentaire 2-1 - Réponse et modifications apportées
+
+...
+
+### Commentaire 2-2 (EVA2)
+
+La structure du texte parait cohérente globalement mais lorsqu’on lit le contenu on se heurte à beaucoup de manques. Ainsi par exemple, le paragraphe 2 parle de « considération sur le bonheur d’enseigner et d’apprendre » et le sous paragraphe 1 « des pratiques de mesure du bonheur ». Ce sous paragraphe ne débouche pas sur une position de l’auteur(e) et il faut comprendre que les sous paragraphes suivants vont permettre de préciser cette question de la mesure. On comprend alors que le modèle PERMA va être mobilisé. Mais celui-ci ne permet pas de définir une telle mesure, « seulement » les dimensions à mesurer. Ainsi le paragraphe 4.1 va développer le « R » de PERMA (relation) dans le cadre de l’étude du climat de classe. Mais là encore aucun outil pragmatique n’est proposé. Cela pourrait se comprendre par l’aspect théorique du texte mais celui-ci présente des réalisation concrètes.
+Dans la même veine, l’un des exemples fournis au 5.4 mobilise les « traits de caractères personnels » comme outil théoriques pour structurer la formation. Cet outil mériterait à lui seul un cadre théorique mais il est introduit dans les exemples.
+Ainsi la richesse théorique de l’article empêche de se rendre compte de ce qui est traité réellement : comment avec quel outil et pour quel résultat avéré.
+
+### Commentaire 2-2 - Réponse et modifications apportées
+
+...
+
+## Problématique
+
+### Commentaire 3-1 (EVA1)
+
+La question de recherche apparait dès le départ dans le titre de l’article. Toutefois le reste de l’article s’efforce de répondre à cette question en intégrant l’argumentation autour de la problématique de l’inclusion scolaire et de la gestion de l’hétérogénéité. Les références scientifiques sont très pertinentes et judicieusement utilisées dans l’argumentation et en lien avec la question de recherche.
+
+### Commentaire 3-1 - Réponse et modifications apportées
+
+...
+
+### Commentaire 3-2 (EVA2)
+
+La question fondamentale correspond au titre de l’article : « Est-il possible d’enseigner le bonheur à enseigner? ». Dans tous le texte il est fait référence au climat de classe, à l’inclusion, au bonheur d’apprendre, autrement-dit au bonheur des élèves. Comment le bonheur des élèves est-il associé au bonheur d’enseigner ? Tout cela n’est pas clairement identifié. Peut-on ressentir le bonheur d’enseigner sans que les élèves ressentent le bonheur d’apprendre? Est-ce une condition nécessaire? Suffisante? De plus il y a une forme de confusion dans le texte de présentation des concepts entre la théorie et l’action. Par exemple : « Cet aspect de participation à la vie scolaire avec une prise en considération active de la diversité constitue notre socle pédagogique sur lequel développer la notion de bonheur d’enseigner et d’apprendre. ». Ce socle ne peut pas être pédagogique pour le chercheur. Finalement, dans la problématique, on se perd dans l’accumulation de considérations qui semblent dessiner un chemin mais dont on arrive pas à cerner qu’il mène à destination.
+
+### Commentaire 3-2 - Réponse et modifications apportées
+
+...
+
+## Cadre théorique
+
+### Commentaire 4-1 (EVA1)
+
+Le cadre théorique est très clair et exposé de manière dynamique dans le 2.3, « Bonheur à l’école et modèle PERMA ». Après avoir exposé les modèles du bien-être subjectif et psychologique, l’auteur-e fait le choix d’inscrire sa perspective dans le modèle de la psychologie positive proposé par Martin Seligman. Ensuite il ou elle explicite ce modèle en cinq dimensions en montrant à chaque fois en quoi chacune de ces dimensions constitue ou peut contribuer à l’intelligibilité des questions en sciences de l’éducation en particulier les questions du sens des apprentissages, la différenciation pédagogique, les relations entre élèves mais aussi à celle du rôle de l’enseignant dans son propre développement. L’objectif de la recherche est indiqué et justifié.
+ 
+
+### Commentaire 4-1 - Réponse et modifications apportées
+
+...
+
+### Commentaire 4-2 (EVA2)
+
+Beaucoup de concepts sont définis en relation à des références explicites. Il n’y a pas d’hypothèses de recherche évidente. Le texte reste comme son titre l’indique « des réflexions ».
+
+### Commentaire 4-2 - Réponse et modifications apportées
+
+...
+
+## Méthodologie ou approche théorique
+
+
+### Commentaire 5-1 (EVA1)
+
+La démarche d’analyse est suffisamment décrite et justifiée pour permettre la compréhension de l’argumentaire scientifique.
+
+Non renseigné
+
+Il y a incontestablement de mon point de vue une réelle cohérence et une adéquation entre la question de recherche, la démarche d’analyse et l’argumentaire scientifique.
+
+### Commentaire 5-1 - Réponse et modifications apportées
+
+...
+
+### Commentaire 5-2 (EVA2)
+
+Le texte n’est pas théorique dans la mesure où il fait intervenir des exemples concrets décrits sur au moins 1/3 de l’article sans que ces exemples soient réflexifs sur la théorie développée. D’ailleurs aucun élément théorique nouveau n’est présent, ni une nouvelle articulation de concepts anciens.
+
+Le texte ne renvoie pas à une recherche empirique dans la mesure où les exemples traités ne font pas intervenir de méthodologie claire d’analyse des résultats mais seulement une description.
+
+Comme dit précédemment, beaucoup trop de concepts sont mobilisés dans le texte pour pouvoir identifier le cœur théorique de l’affaire.
+
+### Commentaire 5-2 - Réponse et modifications apportées
+
+...
+
+## Interprétation / Discussion
+
+
+### Commentaire 6-1 (EVA1)
+
+Ce critère est difficilement identifiable dans cet article réflexif. Mais on peut apprécier positivement la manière dont l’auteur part d’une réflexion théorique pour en arriver à faire une proposition en ingénierie de formation des enseignants visant l’acquisition de compétences émotionnelles et socio-émotionnelles indispensables à l’apprentissage du bonheur d’enseigner. Il n’y a donc pas de discussion en tant que telle dans cet écrit qui se termine par l’énonciation de pratiques et de postures à prendre en compte pour la conception d’un dispositif « efficace » dans la formation des futurs enseignants pour l’apprentissage du bonheur d’enseigner.
+
+### Commentaire 6-1 - Réponse et modifications apportées
+
+...
+
+### Commentaire 6-2 (EVA2)
+
+Il n’y a pas vraiment de discussion puisqu’il n’y a pas de résultats.
+
+### Commentaire 6-2 - Réponse et modifications apportées
+
+...
+
+## Forme de l’article
+
+### Eléments à améliorer (7-0)
+
+- Respect des normes APA dans la bibliographie
+- Titre en français et en anglais
+- Résumé en français et en anglais
+- Présence de Mots-clés
+- Nombre de signes égal ou inférieur à 70 000
+
+### Modifications réalisées (7-0)
+
+...
+
+## Appréciation générale du texte
+
+### Commentaire 8-1 (EVA1)
+
+Voir appréciation globale du texte
+
+### Commentaire 8-1 - Réponse et modifications apportées
+
+...
+
+### Commentaire 8-2 (EVA2)
+
+Ce texte qui comporte des réflexions et des exemples intéressants ne correspond pas à l’évaluation ni théorique, ni empirique d’une démarche scientifique pour répondre à un questionnement bien identifié et menant à des résultats tangibles et avérés. Cet article correspond beaucoup plus à un article relevant d’une revue d’interface malgré les multiples références scientifiques.
+
+### Commentaire 8-2 - Réponse et modifications apportées
+
+...
+
+

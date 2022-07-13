@@ -1,0 +1,517 @@
+---
+title: "Le bonheur d'enseigner est-il enseignable ? (Revue PHRONESIS)"
+subtitle: "Réflexions et propositions issues de la formation à l'enseignement en Suisse Romande"
+author: "Nicolas Bressoud"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+lang: fr
+toc-title: "Table des matières"
+output: 
+  bookdown::word_document2:
+    toc: true
+    reference_docx: "template/article_1_template.docx"
+bibliography: "bib/library_phd.bib"
+knit: (function(input, ...) {
+    rmarkdown::render(
+      input,
+      output_file = paste0(
+        "output/","article_1_revision_", format(Sys.time(), '%Y%m%d'), '.docx'
+      ),
+      envir = globalenv()
+    )
+  })
+csl: "style/apa.csl"
+---
+
+<!--
+
+# Livraisons
+
+Première livraison en juin à :
+
+- Isabelle Capron Puozzo (relecture)
+- Béatrice Mabilon-Bonfils beatrice.mabilon-bonfils@wanadoo.fr (relecture avant dépôt en septembre)
+
+Deuxième livraison en juillet à :
+
+- Rebecca, Andrea, Philippe
+
+Troisième livraison en septembre à :
+
+- revue pour révision (25 septembre 2021)
+- envoyer simultanément à Alain JAILLET, alain.jaillet@u-cergy.fr, Laurent JEANNIN, laurent.jeannin@u-cergy.fr, Béatrice MABILON-BONFIILS, beatrice.mabilon@u-cergy.fr, info@revue-phronesis.com, Philippe.Maubant@USherbrooke.ca.
+
+Quatrième livraison finale à :
+
+- revue (31 janvier 2022)
+
+# Cadrage 
+
+Informations synthétisées à partir de :
+http://www.revue-phronesis.com/du-bien-etre-des-professeurs-au-bonheur-denseigner-le-savoir-relation-dans-la-formation-des-enseignants/
+
+### Titre du numéro :
+
+Du bien-être des professeurs au bonheur d’enseigner : le savoir-relation dans la formation des enseignants
+
+### Idées-forces du numéro (sélectionnées) :
+
+- Etat des lieux de la **recherche** sur le bonheur d'enseigner
+- Identifier les enjeux de la **formation des profs** en lien avec le bonheur d'apprendre et d'enseigner
+- **Savoir-relation** et professionnalisation des profs : quelle pertinence ?
+- Un enseignement efficace dépend d'un haut niveau de bien-être, de SEP et de confiance (OCDE, 2018)
+- Bonheur d'enseigner n'est pas indépendant du bonheur d'apprendre des élèves.
+- Gestion de classe comme un facteur de stress des profs est nommé, parmi d'autres.
+- Ils citent Nancy Goyette.
+- Ils ciblent vraiment sur le bonheur (tout en disant qu'en F on thématise plus volontiers le bien-être "confortable")
+- **Est-ce que penser le bonheur, c'est favoriser une organisation apprenante et inclusive ?**
+- Debarbieux (2015) et le climat relationnel
+- réinterroger le bonheur en classe **à partir des interrelations enseignant-élève-savoir** : "savoir-relation" (Durpaire et Mabilon-Bonfils, 2014) ; définition : le savoir et la conscience de la relation pédagogique s'enseigne.
+
+### Focalisation possible (selon cadrage des auteurs, 3ème corpus de questions) :
+
+Les dispositifs de formation des enseignants intégrant la thématique du bonheur d’apprendre et du bonheur d’enseigner :
+
+- Quels sont les dispositifs, les situations et les pratiques de formation d’enseignants les plus à même de les former au bonheur d’apprendre et d’enseigner ?
+
+- Pourquoi et comment les organismes de formation d’enseignants se sont-ils saisis de la question du bien-être des enseignants et du bonheur d’enseigner ?
+
+- Quelles sont les disciplines, les théories et les concepts convoqués pour sensibiliser voire former les enseignants au bonheur d’apprendre et au bonheur d’enseigner ?
+
+- **Le construit de savoir-relation est-il un élément central de l’apprentissage et du développement professionnel des enseignants ?**
+
+
+### Consignes aux auteurs : 
+
+- Déposer deux versions : anonymisée, non-anonymisée
+- Commentaire pour le rédacteur : spécifier le présent appel à contribution
+- Format docx uniquement
+- Normes APA 7ème édition
+- 70'000 caractères espaces compris maximum (hors titre, résumés F et GB, mots-clés F et GB, bibliographie) ; donc 20 pages ; 
+- Interligne simple
+- Avenir taille 11 ou Times taille 12
+- 2 tableaux maximum
+- 2 figures ou schémas maximum (envoyés par fichier séparé, jpg ou autre)
+- 3 niveaux de titres numérotés
+- Italique uniquement pour titres d'ouvrages et mots étrangers
+- Gras uniquement pour les titres et sous-titres
+- 0 à 10 toujours en lettres ; x > 10 toujours en chiffres sauf si en début de phrase ; ...
+
+### Considérations plus spécifiques : 
+
+- Contextualiser à la **formation des enseignant·es** (conseil de Béatrice Mabilon-Bonfils)
+- Contexte d'**inclusion scolaire**
+- Déterminants favorisant un climat propice à l'enseignement/apprentissage
+- Attention à distinguer **bonheur et bien-être** !
+- faudra partir de la formation des profs et du bonheur des profs pour proposer mon éclairage du climat de classe
+- faudra thématiser rapidos ce construit "savoir-relation" à repérer sur leur site
+- faudra être agile car, si l'article est refusé, je dois pouvoir le modifier facilement pour soumission ailleurs
+- dérouler lentement la logique...
+
+# Mon bac à sable
+
+- conférence de Florian Cova chez Samuel Lepine
+- Texte de Gabola et Radix sur bien-être des profs et directeurs et tutti quanti
+- Aller voir comment Goyette définit le bonheur
+- Garder la notion de Bien-être et différencier de "confort"
+- parler des 3 vagues de PP peut-être
+- Dialectique Bien-être du prof et bien-être des élèves (causalité ?) pour un climat relationnel et d'apprentissage sain
+- Veltcheff, Janosz
+- Toucher à Debarbieux qui est cité
+- Comment former à une vision de l'hétérogénéité qui aide
+- Convoquer Prud'homme.
+- Proposer une vision avec le PERMA
+- Focaliser sur la question de forces.
+- Ce qui s'enseigne, les compétences : le savoir-relation à travers les compétences psychosociales
+- Maël Virat ? Jacques Lecomte ?
+- Témoignages d'étudiants HEP-VS de première année
+- Est-ce compatible avec l'école telle qu'elle fonctionne (norme ) ? Le cas de la CUA comme alternative ?
+- le fameux pdf measuring-well-being-2021.pdf qui doit regorger de considérations conceptuelles (philosphiques) et technique (psychométrie).
+
+# L'enchainement logique 
+
+1. (2 pages) Nous voulons former des enseignants heureux d'enseigner favorisant le bonheur d'apprendre des élèves. > Virat > PERMA > etc.
+
+2. (2 pages) Nous formons les enseignants à travailler dans des contextes hétérogènes.
+
+3. (1 page) La gestion de classe et l'hétérogénéité sont des risques pour l'accès au bonheur. (ou comment reformuler positivement)
+
+4. (2 pages) L'hétérogénéité est une caractéristique souhaitable de l'école inclusive. > pédagogie spécialisée à fond.
+
+5. (2 pages) Le moteur de la dialectique enseignement - apprentissage est la relation.
+
+6. (2 pages) La relation est porteuse de sens pour nourrir le bonheur des profs et des élèves en contexte inclusif.
+
+7. (1 page) La relation peut être comprise en termes de climat de classe.
+
+8. (3 pages) la relation s'apprend chez les enseignants et chez les élèves (CPS, TAD, savoir-relation)
+
+9. (2 pages) le travail sur les forces en PP est un moyen de travailler sur les relations.
+
+10. (1 page) le travail sur les forces permet de réévaluer l'hétérogénéité.
+
+11. (1 page) Donc, on doit former (et sélectionner) les profs à développer leur compétences relationnelles et celles de leurs élèves et nourrir une représentation positive de l'hétérogénéité.
+-->
+
+Résumé :
+
+La formation des enseignants peut se donner les moyens d'accueillir une sensibilisation au bonheur d'enseigner.
+L'enjeu est de taille, en un contexte d'éducation inclusive qui demande aux professionnels une implication entière dans la prise en compte de la diversité des élèves dont ils ont la charge. 
+
+A travers le modèle PERMA développé au sein du champ de la psychologie positive par Martin Seligman (2011), une formation des enseignants au bonheur paraît possible.
+Si le modèle PERMA permet d'identifier des déterminants à prendre en compte dans cet apprentissage, il permet également de mettre en lumière le rôle fondamental de la relation entre l'enseignant et l'élève.
+C'est à travers les relations qui caractérisent le climat de classe que l'enseignant peut ancrer et cultiver le bonheur d'être ensemble, de vivre un projet scolaire partagé, de progresser vers un but commun.
+
+Ainsi, la formation des enseignants peut se donner les moyens de favoriser l'émergence de compétences socioémotionnelles propices au bonheur d'enseigner.
+Elle pourra offrir aux futurs professionnels des occasions de vivre des programmes d'intervention de psychologie positive tout en soutenant des démarches de réflexions sur le développement de leur identité professionnelle (pratique réflexive), 
+Les pratiques de gratitude, les activités sur la régulation émotionnelle ou encore les méthodes de reconnaissance et d'utilisation des forces personnelles sont des leviers en ce sens qui touchent à la relation à soi et à l'autre.
+
+Mots-clés :
+
+formation des enseignants, hétérogénéité, inclusion scolaire, modèle PERMA, climat de classe, compétences socioémotionnelles, forces personnelles.
+
+# Introduction
+
+Le bonheur d'enseigner est-il enseignable ?
+Dans cet article, nous proposons une réflexion sur la formation à l'enseignement dans le contexte de la Suisse romande.
+Nous présentons les tentatives de thématiser le bonheur au sein de la formation.
+Le bonheur d'enseigner est, dans cette proposition, intégré à la problématique de l'inclusion scolaire et la gestion de l'hétérogénéité.
+Ainsi, l'enjeu est double :
+
+- développer une formation à l'enseignement qui prend en compte le développement des compétences propices à l'activité en inclusion scolaire ;
+- proposer une vision du fonctionnement professionnel en contexte hétérogène qui s'appuie sur les possibilités d'y être heureux.
+
+Dans cet article, la notion de bonheur est étroitement liée à celle de bien-être. Les différences conceptuelles sont proposées tout en soulignant les zones de confusion.
+
+# Considérations sur le bonheur d'enseigner et d'apprendre
+
+La recherche du bien-être ou du bonheur des enseignants se développe [@rousseau2018 ; @goyette2020].
+Ce développement intervient dans un contexte où le rôle de l'école évolue vers des pratiques inclusives [@ebersold2009].
+Si les deux thématiques ne sont pas forcément liées à l'origine, force est de constater qu'elles invitent à une réflexion plus large.
+Dans un contexte d'inclusion scolaire, il y a lieu de chercher à comprendre comment les enseignants parviennent à répondre aux défis de l'optimisation des apprentissages de tous les élèves, au sens de Perrenoud [-@perrenoudphilippe2012], tout en développant une pratique professionnelle satisfaisante, voire heureuse.
+En résumé, il y a lieu de former des personnes aptes à voir la gestion de l'hétérogénéité comme une chance ou un terrain d'opportunités pour faire une différence dans les parcours scolaires et moins comme un défi contraignant.
+
+## Pratiques de mesure du bonheur
+
+Encore relativement peu prolixes sur ces enjeux, les instituts de formation à l'enseignement en Suisse romande documentent régulièrement la qualité de leurs dispositifs.
+Pour attester de la qualité, les rapports se fondent volontiers sur le taux d'employabilité des personnes formées ou le taux de satisfaction durant le cursus [voir, par exemple, @voirol-rubido2020].
+Bien que la notion de satisfaction de la formation puisse vaguement se rapprocher du concept de bonheur ou de bien-être, aucune donnée ne traite explicitement du bonheur des personnes formées.
+Cette absence est d'autant plus étonnante pour deux raisons.
+Tout d'abord, la question du burn-out ou de la santé du personnel de l'enseignement est actuelle [@genoud2009 ; @squillaci2020].
+Les liens entre burn-out, réorientation professionnelle, gestion de classe ou gestion de l'hétérogénéité paraissent se tisser aisément [@desmeules2017 ; @karsenti2017].
+En suivant cette logique de focalisation sur les problèmes de burn-out ou de réorientation, il pourrait apparaître que s'intéresser au bonheur d'enseigner n'est pas opérant et ne permettrait pas de résorber l'expansion de ce qui nuit au métier. 
+Cette supposition, bien qu'insatisfaisante, n'est pas infondée.
+En effet, chez les élèves, par exemple, on admet volontiers mesurer le bien-être à partir du taux de harcèlement [@consortiumpisa.ch2019].
+Pourquoi en serait-il autrement chez les enseignants ?
+Autrement dit, en quoi est-ce que la recherche sur l'apprentissage du bonheur d'enseigner serait utile ?
+
+Dans les enquêtes sur la qualité des formations, les indicateurs traditionnels ne suffisent plus. 
+Cet article vise également à proposer d'observer le bonheur d'enseigner pour mieux comprendre comment les formations peuvent réguler leur fonctionnement.
+Un enseignant qui n'est ni en burn out, ni en réorientation professionnelle n'est pas forcément heureux.
+De même, un élève qui ne subit pas de harcèlement n'est pas forcément heureux.
+
+## Bonheur et épanouissement : la psychologie positive comme cadre
+
+Avant d'approfondir la question de cette formation au bonheur d'enseigner en contextes hétérogènes, il y a lieu de se questionner sur ce qui est entendu par bonheur.
+Différents auteurs ont cherché notamment à vérifier l'ancrage culturel de la notion de *happiness* [@dellefave2016].
+Des équipes de recherche ont proposé des modèles mesurables auteur des notions de bien-être ou de bonheur [voir, par exemple, @ryff1989 ; @seligman2011 ; @lyubomirsky2005].
+Que retenir des ces recherches ?
+Pour paraphraser Cova [-@cova2021], nous nous retrouvons avec des notions complexes et ambigues selon le cadre de référence choisi.
+Les notions de bien-être, de bonheur, d'épanouissement, de satisfaction, de bien prudentiel, de qualité de vie, de santé mentale positive se cotoient, se confondent ou divergent.
+En résumé, le bonheur, chez le sociologue ou le médecin, n'est pas celui du psychologue ou du philosophe.
+Dans le cadre de cet article, nous proposons de considérer la notion de bonheur sous l'angle de l'épanouissement.
+Ceci nous amène à définir le cadre de cette notion avant de la développer selon un modèle choisi.
+
+Le champ de recherche que constitue la psychologie positive nous paraît adéquat pour cet exercice.
+En effet, la psychologie positive se donne comme visées de chercher à mieux comprendre les déterminants du bien-être des individus, des groupes ou des institutions [@gable2005].
+Dans la première vague de son activité, elle se focalise ainsi davantage sur le développement des conditions propices à l'épanouissement plutôt que sur la réduction des conditions qui entravent le développement humain.
+En ce sens, ce domaine de recherche est intéressant pour sortir d'une optique de réduction des problèmes pour embrasser la question de la promotion du bonheur d'enseigner et apprendre.
+Ce changement d'angle est crucial.
+Traiter la question du bonheur par la réduction des troubles ou les démarches de résolution de problèmes ne permet pas, à notre sens, de travailler sur les processus favorables à son développement.
+L'analogie avec la santé est valable. On peut se référer à la définition relative de l'OMS, bien connue dans le monde médical : l'absence de maladie ne signifie pas la bonne santé ou la santé optimale. Un état de bien-être mental et physique se cultive.
+Un autre argument en faveur de la psychologie positive, comme cadre de référence, est constitué par la nécessité de fonder les démarches et modèles rigoureusement éprouvés.
+Cette rigueur impose aux équipes de recherche de ce champ de répondre à des protocoles expérimentaux détaillés dans le cadre des publications révisées par les pairs.
+Les résultats des recherches sont également remis en question au fur et à mesure de l'évolution des connaissances méthodologiques.
+Un exemple emblématique de cette recherche de rigueur est sans conteste les travaux autour de la *happiness pie* [@sheldon2021].
+Durant plusieurs années, différentes équipes ont mis à l'épreuve ce fameux modèle qui proposait, selon une compréhension populaire erronée, de quantifier les déterminants du bonheur.
+L'enjeu y était la part de bonheur dépendant du pouvoir d'agir de la personne, à côté des facteurs environnementaux et génétiques.
+Cette remise en question a permis de faire évoluer le modèle et, pour l'essentiel, à relativiser l'impact des découvertes qu'il a générées.
+Ce processus de production des connaissances prend en compte l'amélioration des modèles à travers une réévaluation pensée comme impartiale.
+
+## Bonheur à l'école et modèle PERMA
+
+Bien que mieux comprise et délimitée, la *happiness pie* reste un outil important pour progresser dans la compréhension du bonheur ou de l'épanouissement.
+Et ce n'est évidemment pas le seul.
+Dans le domaine de la psychologie positive, différents modèles proposent de cerner et délimiter le bonheur, le bien-être ou l'épanouissement.
+Sans les développer, nous en présentons d'abord deux puis nous nous arrêterons sur le troisième.
+
+Le modèle le plus connu nous vient de Ed Diener [-@diener1984]. 
+Le chercheur a développé ce qu'il a nommé le *subjective well-being*, c'est-à-dire le bien-être subjectif.
+Ce modèle propose en particulier une évaluation du bien-être par une balance des émotions à valence positive ou négative ressenties.
+Ressentir plus d'émotions positives que négatives et porter un jugement favorable sur ce constat est, dans cette proposition, un bon indicateur de bien-être subjectif.
+Le modèle de Diener a énormément apporté au champ de recherches et continue à être étudié. 
+Certaines critiques font toutefois remarquer que le modèle se fonde un peu trop sur les aspects de confort liés au bien-être.
+Il omettrait les aspects du bonheur liés au sens de l'existence.
+En clair, il ne permet pas de comprendre les situations de bonheur dans des contextes d'inconfort.
+Ainsi, à côté du modèle de Diener, nous retrouvons régulièrement celui de Carol Ryff [-@ryff1989] qu'elle intitule le *psychological well-being*, le bien-être psychologique.
+La chercheuse fonde sa proposition sur les aspects philosphiques eudémoniques du bonheur.
+Le bien-être psychologique serait alors plus une question de sens de ses actions dans la course du monde que de confort et affects positifs.
+Avec Ryff, nous progressons en direction d'une vision du bonheur qui devient pertinente pour le monde scolaire.
+Le modèle devient intéressant pour comprendre des éléments comme le sens des apprentissages scolaires, la mission d'enseigner, le rôle des relations humaines dans l'épanouissement individuel et collectif. 
+Un troisième modèle, proposé par Martin Seligman, semble prendre en compte le meilleur des deux modèles.
+Il s'agit du modèle PERMA.
+Différents auteurs, en particulier Peggy Kern [-@kerninpress], ont repris et adapté la proposition de Seligman au champ scolaire.
+
+Le modèle PERMA (ou PERMAH selon les versions) vise à mieux comprendre le bonheur humain sous l'angle de l'épanouissement.
+Il prend en compte les aspects de confort, de plaisir et aussi la question du sens de ses actions.
+Il est bien positionné pour définir et mesurer les pratiques de psychologie positive en contexte scolaire. 
+Le PERMA permet de saisir la question du bonheur à travers cinq dimensions. 
+La première dimension concerne les émotions positives (P).
+Elle donne place au rôle capital que jouent les émotions telles que la joie, la fierté, la curiosité dans le développement humain [@gay2019c; @pekrun2014; @fredrickson2013].
+A l'école, cette dimension permet d'observer les situations d'enseignement-apprentissage sous l'angle des affects positifs, longtemps négligés en sciences de l'éducation.
+Le PERMA propose ensuite de prendre en compte l'engagement (E) des personnes.
+Le bonheur semble donc lié à ce que réalisent les individus dans des situations de fonctionnement optimal ou *flow* [@csikszentmihalyi2009].
+La vie scolaire connaît de nombreuses situations où les élèves sont absorbés par une tâche stimulante, intéressante et ou les enseignants ne voient pas le temps passer, occupés dans des discussions passionnantes avec leur public.
+La question de l'engagement des personnes convoque également la gestion de l'hétérogénéité : comment concevoir des situations d'apprentissage propres à impliquer chaque membre de la classe de manière optimale ?
+Nous y reviendrons plus bas.
+Le modèle de Seligman met ensuite l'accent sur les aspects relationnels de la vie humaine (R).
+L'auteur propose de considérer des relations authentiques et énergisantes.
+Ceci caractérise ainsi des liens où la solidarité et le sentiment d'appartenance sont forts. 
+Le développement des comportements prosociaux ou altruistes semble alors être un levier [@shankland2020; @shankland2018d].
+En contexte scolaire, cette dimension concerne le climat de classe.
+Elle donne une grande responsabilité aux enseignants dans la culture d'un climat non seulement propice aux apprentissages, mais également au développement de relations saines entre élèves.
+Le (M) concerne ensuite la question du sens des ses activités ainsi que le sens de sa vie.
+Le sens de la vie convoque des aspects liés à ce que l'on peut nommer la spiritualité.
+Toutefois, le modèle PERMA ne traite pas des questions de religion.
+La question du sens est tout à fait à portée de la psychologie.
+Des chercheurs comme Michael Steger [-@steger2008] ont bien circonscrit le sujet en le découpant selon ses aspects affectifs, cognitits et comportementaux.
+Steger propose donc de questionner le sens à travers notamment l'amitié, la parentalité, les croyances, les valeurs, la philosophie de vie...
+A l'école, le sens des activités est un aspect qui est bien identifié dans les recherches sur la motivation. 
+Cette dimension du modèle PERMA rappelle aux enseignants de continuellement rechercher à expliciter le lien entre leurs actions pédagogiques et la finalité : favoriser l'apprentissage des élèves.
+Dans la version de base de son modèle, Seligman conclut avec la dimension qui concerne le sentiment d'accomplissement des personnes (A). 
+L'accomplissement se caractérise notamment par la sensation de progresser en direction de buts personnels, un sentiment de compétence, voire un dépassement de soi [@seligman2011].
+D'autres versions plus récentes du modèle prennent en compte la dimension de la santé (H).
+
+Le PERMA nous paraît donc être pertinent pour comprendre ou du moins mieux cerner la question du bonheur d'enseigner et d'apprendre.
+Issu de la psychologie positive, ce modèle met en lumière sous un jour nouveau des éléments bien documentés en sciences de l'éducation tels que la question du sens des apprentissages, la différenciation pédagogique, ou encore les relations entre élèves.
+Mais plus encore : il apparaît également pertinent pour questionner le rôle de l'enseignant dans son propre développement.
+Il permet de baliser, c'est la proposition centrale de cet article, l'apprentissage d'une vie heureuse à l'école.
+
+# La question des contextes hétérogènes et de l'inclusion scolaire
+
+Si le modèle PERMA est pertinent pour penser les parcours heureux des élèves et des enseignants, il y a lieu de s'arrêter un instant sur la question de l'hétérogénéité dans les classes ainsi que celle de l'inclusion scolaire.
+L'hétérogénéité des élèves et les enjeux liés à l'inclusion des personnes à besoins éducatifs particuliers peuvent-ils être considérés comme des entraves au développement du bonheur en classe ? 
+Il y aurait en effet une anxiété relative chez la plupart des enseignants. 
+Toutefois, nous voulons insister sur la possibilité d'y être heureux. 
+Le modèle PERMA est notre système de balise dans l'argumentation.
+Nous proposons tout d'abord de circonscrire les notions d'hétérogénéité et d'inclusion.
+Puis, nous les observerons sous l'angle du bonheur d'enseigner et d'apprendre.
+
+En formation des enseignants, nous avons pour habitude de débattre de plusieurs catégories de perceptions de l'hétérogénéité [@burger2010; @zakhartchouk2014].
+Une première catégorie de perception serait de renoncer à la voir ou à la prendre en compte.
+Dans ce cas, on renonce (pour différentes raisons qui ne sont pas l'objet de cet article) à considérer que les élèves ont des besoins ou des particularités qu'il vaut la peine de prendre en compte.
+Sans chiffre à l'appui, nous postulons que cette catégorie reste bien représentée dans le personnel enseignant. 
+Elle peut paraître à priori confortable puisqu'elle n'implique aucune différenciation pédagogique instrumentée.
+Mais elle ne permet ni un apprentissage optimal des élèves ni un épanouissement dans le métier d'enseignant, celui-ci se réduisant à un rôle de distributeur de tâches scolaires.
+Une autre perception de l'hétérogénéité est celle qui consiste à voir les différences entre élèves comme un empêchement à l'acte d'enseigner.
+Dans ce cas, l'enseignant prodigue un enseignement normalisé pour la majorité de ses élèves.
+Et il consent à faire l'effort de mettre en oeuvre quelques adaptations pour les élèves qui sortent trop de la norme.
+Ici aussi, il n'y a pas de chemin vers le bonheur d'enseigner ou apprendre puisque chaque écart à la norme impliquera un travail par nature supplémentaire et non consubstantiel de l'enseignement ordinaire.
+Une troisième catégorie de perceptions consiste à voir l'hétérogénéité dans un groupe comme une donne de base de ce que sont les êtres humains.
+Dans ces dernières perceptions, on reconnaît ce qui relie les élèves entre eux tout en prenant en compte leurs besoins particuliers. 
+Ici, la norme est la diversité [@bergeron2011].
+Ainsi, l'enseignant y enseigne tout en étant conscient de son rôle qui consiste à optimiser les apprentissages de chacun tout en prenant en compte le groupe.
+Cette dernière série de perceptions va dans le sens de Michel de Saint-Onge qui intitule son ouvrage : Moi j'enseigne, mais eux, apprennent-ils ? [-@saint-onge2008].
+Ceci met l'accent sur la dialectique enseignement-apprentissage.
+L'enseignant ne peut enseigner sans chercher constamment les indices d'apprentissages chez ses élèves, dans un ajustement constant [@hattie2012].
+Cet ajustement constant se réalise explicitement dans la planification, la réalisation et l'évaluation de l'enseignement.
+
+Dans cet esprit, nous définissons l'hétérogénéité d'une classe comme l'ensemble de la diversité des élèves sous leurs différentes sphères de développement (cognitive, affective, socioculturelle), leurs besoins spécifiques, intérêts et motivations, leurs connaissances préalables [@talbot2011; @abdallah-pretceille2003].
+Cette hétérogénéité caractérise le groupe classe sans porter de jugement de valeurs.
+La prendre en compte permet à l'enseignant de planifier, enseigner et évaluer. 
+C'est sous cette acception du terme que le bonheur d'enseigner et d'apprendre est traité dans cette contribution.
+Cette vision de l'hétérogénéité facilite la prise en compte de l'inclusion scolaire.
+
+L'inclusion scolaire peut être une notion polysémique difficile à cerner.
+Historiquement, elle se rapproche de l'intégration scolaire des personnes en situation de handicap [@tremblay2012].
+Les injonctions, au niveau mondial, remontent en effet à plus de trente ans.
+Les politiques d'intégration scolaire ont visé à sortir peu à peu d'un modèle médical très normatif catégorisant les individus.
+Peu à peu, les expériences d'intégration scolaire ont révélé les bénéfices pour la personne en situation de handicap autant que pour les camarades de classes.
+Si l'élève au bénéfice de mesures d'aides en contexte intégratif peut progresser dans les apprentissages scolaires, les dimensions relationnelles et sociales sont vues comme particulièrement bien stimulées.
+Les camarades de classe bénéficient également du dispositif d'aide mis en œuvre dans leurs apprentissages scolaires et sociaux [voir par exemple : @sermierdessemontet2012].
+
+Dans ce sens et selon les évolutions actuelles, l'inclusion scolaire se démarque des pratiques de différenciations structurelles.
+Autrement dit, l'école prend en compte les besoins spécifiques des élèves pour favoriser une différenciation au sein du groupe et non en séparant les élèves en fonction des diagnostics ou troubles [@pelgrims2013; @kalubi2017].
+Dans ce contexte, l'inclusion peut être définie comme un tout dans lequel chacun est inclus dès le départ [@tremblay2012; @doudin2009; @lafortune2006].
+
+Cet aspect de participation à la vie scolaire avec une prise en considération active de la diversité constitue notre socle pédagogique sur lequel développer la notion de bonheur d'enseigner et d'apprendre. 
+
+# Inclusion et climat de classe
+
+La participation active de tous les enfants à la vie scolaire est pensé comme réponse à une besoin universel d'affiliation.
+Elle agit aussi en tant que *empowerment* des jeunes avec besoins éducatifs particuliers qui se retrouvent en situation d'avoir voix au chapitre.
+Ce faisant, l'école renforce l'autodétermination des élèves dans le sens des travaux initiés par Richard Ryan et Edward Deci [-@ryan2000].
+Cette autodétermination bénéficie de la pédagogie mise en œuvre dans la classe, à savoir un pilotage de la classe et son climat par des enseignants qui disposent d'une vision favorable de l'hétérogénéité des classes et de l'inclusion scolaire.
+
+Luc Prud'homme et ses collègues [-@prudhomme2017] ont développé le sujet en se demandant quels étaient le profil et les pratiques des enseignants qui réussissent le pari de l'inclusion scolaire.
+Dans leur ouvrage, les auteurs isolent différentes caractéristiques.
+Nous en présentons une petite sélection.
+Tout d'abord, selon les auteurs, l'enseignant qui vise l'inclusion sait considérer la différence comme une ressource et encourage l'expression de la diversité. Cette personne est également capable de mettre l'accent sur le potentiel et non le handicap. Ensuite, toujours selon les auteurs, elle sait gérer sa classe de manière participative et permet aux élèves de se donner des objectifs et à aider les autres à atteindre les leurs.
+
+Une telle personne peut-elle heureuse ? 
+Il nous semble pouvoir répondre par l'affirmative.
+Le modèle PERMA de Martin Seligman, tel que nous l'avons développé plus haut, nous donne quelques arguments dans ce sens.
+Les éléments principaux de l'argumentation concernent certainement la question de sens de l'activité enseignante correspondant à la quatrième dimension du PERMA, le thème du sentiment d'accomplissement qui est la cinquième partie du modèle et enfin l'aspect des relations authentiques (troisième dimension).
+Cet enseignant tel que décrit par Prud'homme et ses collègues met en effet en œuvre une pédagogie alignée sur ses croyances et valeurs tout en prenant en compte les besoins d'autrui.
+Ce faisant, il réalise une activité orientée vers autrui (les élèves) qui favorise son propre épanouissement.
+
+Toutefois le lien avec le PERMA n'est pas encore assez étayé. 
+Il s'agit de sortir de la relation d'apprentissages au sens strict pour traiter de la question plus large du climat de classe.
+A travers le climat de classe, sur lequel l'enseignant a une grande influence, le tissage des liens entre inclusion scolaire et bonheur paraît clair.
+
+Le climat de classe s’intéresse à la qualité des interactions entre les différents acteurs d’une classe et leur environnement, dans le but de prédire leurs comportements [@bressoud2021].
+En France, Caroline Veltcheff [-@veltcheff2019] a notamment écrit sur la question du climat scolaire dit positif.
+A travers cette notion, l'auteure développe en particulier la question des ressources à activer pour favoriser le bien-être de tous.
+En clair, le climat de classe s'entretient, se développe et l'enseignant joue un rôle central.
+Ce rôle peut être exercé en particulier à travers les relations.
+Nancy Gaudreau [-@gaudreau2017] a ainsi thématisé les domaines incontournables de ce qu'elle nomme la gestion de classe.
+Parmi ces domaines, on retrouve la question des relations dites positives.
+Par cela, Gaudreau précise que toute gestion de classe adéquate passe par l'entretien et le développement de relations saines et authentiques avec les élèves.
+En ce sens, et pour revenir sur le climat, gérer sa classe n'est pas qu'une histoire d'organisation et d'administration mais bien également de développement d'une culture relationnelle.
+Il faut insister sur cette notion : la neutralité relationnelle n'est pas proposée par Gaudreau.
+Indépendamment de la question de l'autorité ou du rapport de pouvoir, une relation positive génère des émotions agréables et engage les acteurs dans un rapport de confiance.
+
+Ce principe actif que serait la relation entre les acteurs, à travers le climat scolaire, dans la question de l'inclusion scolaire, mérite un approfondissement.
+Il nous permettra de revenir sur la question du bonheur.
+
+## La relation enseignant-élèves comme principe actif dans le développement du climat de classe
+
+Être en classe ne se réduit pas à enseigner et apprendre. 
+C'est être partie prenante dans un réseau de relations qui peut être caractérisé par un climat de classe que l'on espère positif.
+Ce réseau de relations dépend fortement de la posture des enseignants.
+Nous avons quelque peu abordé cette idée en évoquant la perception que les enseignants peuvent avoir de leurs élèves à travers la prise en compte de la diversité. 
+Toutefois, plusieurs auteurs précisent les déterminants d'une relation pédagogique qui développe intensément un climat de classe favorable [voir, par exemple,  @jellab2018; @virat2019].
+Dans le sens des travaux de Christophe Marsollier, Rebecca Shankland et ses collègues [-@shankland2018] ont cherché à mieux cerner la relation enseignants-élèves à travers la posture bienveillante de l'adulte.
+Cette posture bienveillante serait inconditionnellement attentive aux besoins psychologiques fondamentaux des élèves, rejoignant la théorie de l'autodétermination de Ryan et Deci.
+Jellab et Marsollier [-@jellab2018] parlent d'une bienveillance active, lorsque les enseignants s'engagent dans la relation à leurs élèves en faisant preuve d'empathie et d'une exigence raisonnable dans les apprentissages scolaires.
+Une telle bienveillance n'est ainsi ni autoritariste ni laxiste.
+En elle-même, elle constitue une posture éthique exigeante pour les enseignants qui, de fait, ont à coeur d'être à la hauteur de ce défi journalier : soutenir le développement psychosocial (ou socioémotionnel) de leurs élèves. 
+
+Ces considérations sur le climat de classe et son principe actif qu'est la relation nous permettent de mieux appréhender le bonheur d'enseigner et d'apprendre.
+
+# Formation des enseignants et rôle du bonheur
+
+L'épanouissement passe par la relation.
+C'est ce que le modèle PERMA du bonheur semble indiquer [@seligman2011].
+A l'école, le lien que les enseignants entretiennent avec leurs élèves permet de générer des émotions positives, donner du sens aux apprentissages et favoriser l'engagement des enfants par l'ajustement constant du dispositif pédagogique.
+
+En formation des enseignants, il y a donc un enjeu remarquable : en termes de compétences socioémotionnelles, comment former les futurs enseignants dans le développement des compétences relationnelles utiles à l'accomplissement de leur mission ?
+Si le bonheur passe par la relation à l'élève, comment peut-on l'enseigner ?
+
+Il paraît censé de parier sur une formation des enseignants qui ose affirmer son attachement à diplômer des personnes compétentes dans le bonheur d'enseigner.
+Pour ce faire, les recherches en psychologie positive sont particulièrement utiles.
+Elles étudient et mettent en évidence des activités propices à développer des comportements altruistes ou à focaliser son attention sur ce qui fonctionne plutôt que sur ce qui pose problème.
+Elles permettent également de dégager des postures intellectuelles qui favorisent la prise de distance avec les réponses automatiques liées, par exemple, à la colère.
+Ceci peut être utile pour garantir une posture bienveillante dans la relation, par exemple, indépendamment de l'état émotionnel des acteurs.
+
+## Entraînement conscient au bonheur
+
+Dans cette partie, nous proposons de détailler une série de pratiques de formation telles qu'elles peuvent être observées en Suisse francophone notamment.
+Ces pratiques nous semblent favorables à l'apprentissage du bonheur d'enseigner.
+Elles s'inspirent parfois de travaux en psychologie positive et se basent pour l'essentiel sur ce que l'on nomme la pratique réflexive (c'est-à-dire la réflexion structurée et instumentée sur sa pratique professionnelle).
+
+## Programmes d'intervention et pratique réflexive
+
+Penser conjointement pratique réflexive et programmes de psychologie positive paraît être une option intéressante pour apprendre à enseigner heureux.
+Les programmes de psychologie positive ne risquent d'être que des entrainements ponctuels si un retour formel sur l'activité n'est pas partie prenante du dispositif.
+Pour donner leur plein potentiel, il est nécessaire que les futurs enseignants apprennent, en parallèle aux programme d'intervention, à observer leurs représentations du métier ou leurs croyances et valeurs pour éventuellement les dépasser.
+Dans un tel contexte, il est possible de proposer aux futurs enseignants d'expérimenter des postures professionnelles et d'être attentifs aux effets sur eux-mêmes et leurs élèves lors de stages en cours de formation, par exemple.
+En outre, la formation doit s'accompagner d'une authentique introspection qui permet aux personnes de saisir profondément quels sont les enjeux émotionnels et éthiques qui influencent leurs actions.
+On proposera par exemple aux futurs enseignants de jouer des saynètes de la vie scolaire en milieu non-jugeant et de relater leurs ressentis [@carrupt2018; @shankland2017].
+Dans ces exercices bien contrôlés, on proposera des techniques de régulation des émotions ou des stratégies de réorientation attentionnelle [@bressoud2020c]. Des pratiques de gratitude pourront également être testées et documentées [@shankland2016b].
+A chaque fois, on proposera aux participants de prendre note des effets des techniques mises en œuvre.
+
+La question des émotions a été peu développée jusqu'ici. 
+Toutefois, il apparaît clair que les aspects affectifs peuvent jouer un rôle de facilitateurs ou d'obstacles au développement d'une relation saine [@gay2017a].
+Ainsi, nous soutenons d'une part que le bonheur d'enseigner se joue dans la relation.
+D'autre part, nous ajoutons que la qualité des relations dépend des compétences socioémotionnelles de l'enseignant.
+
+## Un exemple en formation des enseignants 
+
+La haute école pédagogique du Valais est un des cinq instituts de formation des enseignants de Suisse romande.
+Au sein de cet établissement, le cursus de formation des enseignants propose depuis plus de cinq ans des dispositifs traitant explicitement du développement des compétences socioémotionnelles des futurs enseignants.
+Rattachés à une équipe de recherche et développement intitulée "Emotions, bien-être et apprentissages à l'école", les chargés d'enseignement ont d'abord commencé par proposer des cours à option sur cette thématique [@bressoud2019a].
+L'accueil a été positif.
+Dans le cours à option, les enseignants en formation apprenaient d'une part à reconnaître et développer leurs propres compétences émotionnelles.
+D'autre part, ils étaient amenés à développer du matériel pédagogique pour les élèves qu'ils rencontraient en stage.
+Dans une volonté d'ancrer le dispositif de formation sur la relation, les chargés d'enseignement focalisaient le cours sur l'impact de l'expression et la régulation des émotions sur le climat de classe.
+Plus tard, les contenus du cours à option ont commencé à pénétrer le tronc commun de cours obligatoires de la formation à l'enseignement.
+A ce jour, les thématiques des compétences émotionnelles et de la bienveillance éducative sont traitées durant les trois ans de formation.
+A chaque fois, les chargés d'enseignement ont comme objectif de lier les contenus développés aux aspects relationnels.
+En première année, les enseignants en formation découvrent la notion de bienveillance et son rôle dans la relation éducative et le développement d'un climat de classe dit positif à travers ce que l'on nomme la discipline positive [@nelsen2014]. 
+Ils y perçoivent l'impact de l'expression des émotions sur leur propre bien-être et celui de leurs futurs élèves.
+Ils découvrent des postures de communication et leurs effets.
+En deuxième année, ils développent les compétences liées aux rétroactions enseignants-élèves et le rôle de la communication non-violente.
+En dernière année, les futurs professionnels développent leur propre modèle complexe du métier qui connecte les valeurs des personnes, les gestes professionnels développés en formation et les balises théoriques et pratiques.
+
+Ce dispositif de formation est encourageant.
+Il cherche, dans une logique en spirale, à permettre aux futurs enseignants de vivre et s'approprier des pratiques développant et soutenant leur bonheur d'enseigner.
+Cependant, l'appui des ces pratiques sur la relation enseignant-élève peut être encore mieux pris en compte.
+Sans quoi, l'apprentissage du bonheur d'enseigner durant la formation pourrait ne pas avoir d'impact dans l'exercice du futur métier.
+C'est pourquoi un dispositif pédagogique a été développé pour mêler à la fois la question de l'inclusion scolaire, les relations entre personnes et l'épanouissement de chacun.
+Il s'agit d'un programme autour des forces personnelles [@peterson2004].
+
+## Formation des enseignants et climat de classe : l'exemple des forces de caractère
+
+Dans une école aux visées inclusives, les enjeux relationnels, qui sont au centre du développement du bonheur, ont un rôle crucial.
+Le bonheur prospère, nous l'avons vu avec le modèle PERMA, à travers l'authenticité des relations, le sens des activités, le sentiment de compétence ou encore le sentiment de participation.
+Ainsi, il y a lieu de voir comment les enseignants peuvent soutenir leur propre mise en capacité (ou *empowerment*) ainsi que celle de leurs élèves dans ce réseau d'interdépendances que l'on veut positives.
+
+Peterson et Seligman [-@peterson2004] ont développé une recension de traits de caractère personnels qui joueraient un rôle dans le développement du bonheur individuel et collectif.
+Il s'agit des forces de caractère.
+Nous les nommerons forces personnelles.
+La recherche scientique isole, en l'état actuel, 24 forces personnelles. 
+En voici une sélection : le goût de l'apprentissage, la gentillesse, la prudence, l'intelligence sociale, l'humour ou encore le sens esthétique.
+A travers cette recension et appuyés par une communauté scientifique attachée à mesurer la pertinence des aspects psychométriques d'une telle catégorisation des traits de caractère, différents auteurs observent des effets de la reconnaissance et l'utilisation de ses propres forces personnelles sur son bien-être.
+On pourra consulter les travaux de Ryan Niemiec [-@niemiec2019a] pour une revue.
+Dans les interventions sur les forces personnelles, les participants apprennent généralement à identifier des ressources personnelles dont ils avaient négligé l'existence.
+Ils apprennent à prendre appui sur ces ressources pour mener à bien leurs activités.
+On peut citer l'exemple - inspiré de fait réels - d'un enseignant tout à fait déprimé par son incapacité à faire rire ses élèves, en comparaison avec son voisin de palier qui sait faire de l'humour.
+En apprenant à reconnaître ses forces, cet enseignant re-découvre son goût de l'apprentissage.
+Il se souvient que ses meilleures expériences professionnelles se passent lorsqu'il peut partager son intérêt pour l'histoire et la géographie.
+Ainsi, petit-à-petit, il reconnaît sans jugement de valeur ou dégradation de sa propre estime de soi que son voisin de palier est compétent pour exercer l'humour alors que lui-même pourra partager avec ses propres élèves son enthousiasme pour les nouvelles connaissances.
+L'exemple n'est pas si banal. 
+Le travail sur les forces personnelles semble jouer un rôle important pour contrer un certain biais de négativité naturel qui stimule l'oubli de nos ressources personnelles en situation difficile.
+
+En contexte inclusif, le travail sur les forces personnelles est au climat de classe ce que l'énergie solaire est aux plantes.
+Orienter son enseignement sur les ressources individuelles en présence favorise le développment du bien-être collectif.
+Plus précisément, différentes recherches identifient des effets de la pratique des forces personnelles sur l'expérience d'émotions positives, la cohésion de groupe ou la diminution de conflits [voir par exemple @quinlan2014].
+
+En rendant cette activité moins intuitive ou moins implicite, la formation des enseignants donne aux futurs professionnels de réels leviers pour nourrir les relations dans la classe.
+Elle identifie des dimensions du climat de classe qui peuvent faire l'objet d'un soutien et d'un développement par l'enseignant.
+Autrement dit, elle offre réellement les moyens aux enseignants de sortir de l'impasse des croyances limitantes telles que "je n'ai pas une bonne classe cette année", "j'ai trop d'hétérogénéité dans mon groupe" ou encore "je n'y peux rien".
+
+# Vers une école inclusive basée sur le développement actif du climat de classe
+
+La formation des enseignants prépare les futurs professionnels à embrasser un métier de la relation.
+Au cours du cursus, elle peut se donner les moyens de thématiser la possibilité d'apprendre à enseigner heureux.
+Lorsque les enseignants prennent conscience de leurs propres compétences socioémotionnelles ainsi que leurs forces personnelles, ils découvrent une palette de paramètres sur lesquels ils peuvent agir pour développer un climat de classe propice au bonheur d'enseigner et d'apprendre.
+
+Pour délimiter la stratégie d'apprentissage du bonheur au sein des instituts de formation, le modèle PERMA est une ressoure importante.
+Il permet de focaliser l'énergie du disposiitf de formation sur cinq dimensions qui jouent un rôle dans l'épanouissement individuel.
+
+Au niveau mondial, sur cette thématique, la recherche sur ce que l'on nomme la *positive education* est en pleine expansion. 
+Ce sont des perspectives réjouissantes pour le développement d'écoles inclusives où le bonheur d'enseigner et apprendre devient une évidence.
+
+# Références
+
+
+
+
+
+
+
+
+
+
+
+
