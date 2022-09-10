@@ -26,7 +26,7 @@ Ce document constitue l'annexe à la version révisée de l'article.
 Il reprend, dans leur ordre d'apparition, chaque commentaire des personnes chargées de la révision.
 En lien avec chaque élément, il précise, contextualise et synthétise les révisions apportées à l'article.
 
-La présente synthèse se base sur la grille de synthèse des évaluations à l'avaeugle communiquée par info@revue-phronesis.com le 10 juin 2022.
+La présente synthèse se base sur la grille de synthèse des évaluations à l'aveugle communiquée par info@revue-phronesis.com le 10 juin 2022.
 
 # Décision de l'équipe de coordination du numéro
 
@@ -55,7 +55,44 @@ De manière générale ce texte manipule trop de concepts ce qui empêche d’en
 
 ### Commentaire 1-2 - Réponse et modifications apportées
 
-...
+Merci pour cette desciprtion. Le réviseur présente en effet l'alignement des concepts en pointant le manque de lien entre eux. Ce commentaire a été central dans la refonte du texte. Il a guidé notamment l'ajout de transitions entre les notions et la restructuration hiéarchique des différentes parties.
+
+Le conceptogramme suivant a été rédigé dans le but de mieux expliciter les notions pour quitter l'impression d'assertions et d'heuristique justement relevée :
+
+```{r mermaid}
+library(DiagrammeR)
+
+mermaid <- mermaid("
+  graph LR;
+  
+  A[bienêtre]
+  B[bonheur]
+  
+  subgraph cadre théorique
+    A-->|définit| B
+    A-->C
+    B-->D
+  end
+  
+  C-->D
+  
+  subgraph ingénierie pédagogique
+    D-->E  
+  end
+
+
+  ")
+
+mermaid
+```
+
+Plus précisément, les modifications apportées concernent :
+
+- reprendre les éléments du texte qui ont bougés.
+
+Cette révision est connectée à : 
+
+- citer les autres commentaires qui ont été pris en compte pour réviser.
 
 ## Structure du texte
 
