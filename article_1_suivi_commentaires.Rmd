@@ -47,7 +47,7 @@ Ce texte s’inscrit parfaitement dans la thématique du numéro « Du bien-êtr
 
 ### Commentaire 1-1 - Réponse et modifications apportées
 
-...
+Merci pour le commentaire qui permet de clarifier le propos pour le lectorat. En l'occurence, il s'agit ici d'annoncer la signification de l'acronyme PERMA. Ceci a été amélioré dans le résumé et en introduction d'article.
 
 ### Commentaire 1-2 (EVA2)
 
@@ -55,11 +55,11 @@ De manière générale ce texte manipule trop de concepts ce qui empêche d’en
 
 ### Commentaire 1-2 - Réponse et modifications apportées
 
-Merci pour cette desciprtion. Le réviseur présente en effet l'alignement des concepts en pointant le manque de lien entre eux. Ce commentaire a été central dans la refonte du texte. Il a guidé notamment l'ajout de transitions entre les notions et la restructuration hiéarchique des différentes parties.
+Merci pour cette description. La personne en charge de la révision présente en effet l'alignement des concepts en pointant le manque de lien entre eux. Ce commentaire a été central dans la refonte du texte. Il a guidé notamment l'ajout de transitions entre les notions et la restructuration hiéarchique des différentes parties.
 
 Le conceptogramme suivant a été rédigé dans le but de mieux expliciter les notions pour quitter l'impression d'assertions et d'heuristique justement relevée :
 
-```{r mermaid}
+```{r mermaid, echo=F}
 library(DiagrammeR)
 
 mermaid <- mermaid("
@@ -67,32 +67,77 @@ mermaid <- mermaid("
   
   A[bienêtre]
   B[bonheur]
-  
-  subgraph cadre théorique
-    A-->|définit| B
-    A-->C
-    B-->D
+  C[inclusion scolaire]
+  D[gestion de l'hétérogénéité]
+  E(émotions positives du modèle PERMA)
+  F(engagement du modèle PERMA)
+  G(relations authentiques du modèle PERMA)
+  H(sens du modèle PERMA)
+  I(accomplissement du modèle PERMA)
+  J[modèle PERMA]
+  K[climat scolaire]
+  L[Besoins éducatifs particuliers]
+  M[pouvoir d'agir des élèves]
+  N[participation des élèves]
+  O[Programme d'interventions]
+  P[Force de caractère]
+  Q[Pratique réflexive - Développement de l'identité professionnelle]
+
+  subgraph En psychologie positive
+    A-->|en tant qu'équivalent de| B
+    A-->|définissable et mesurable via le|J
+    J-->E
+    J-->F
+    J-->G
+    J-->H
+    J-->I
+    O-->|agissent comme catalyseur des|G
+    P-->|en tant que|O
+
   end
   
-  C-->D
+  A-->|dans un contexte d'|C
+  A-->|dans un contexte de|D
+  F-->|comme soutien dans la|D
   
-  subgraph ingénierie pédagogique
-    D-->E  
+  subgraph Formation des enseignants
+    C -->|vise le développement de compétences dans la|D
+    K-->|influence la qualité de l'|C
+    C-->|concerne les|L
+    Q-->|consolide les valeurs concernant l'|C
+  end
+  
+  G-->|nourrit le développement du|K
+  
+  subgraph sela la théorie de l'autodétermination - Deci & Ryan
+    C-->|met en défi le|M
+    C-->|met en défi la|N
   end
 
+  H-->|favorisé par la prise en compte du|M
+  H-->|favorisé par la prise en compte de la|N
+  I-->|favorisé par la prise en compte du|M
+  I-->|favorisé par la prise en compte de la|N
+  
+  O-->|proposés en formation via les cours sur la|Q
 
   ")
 
-mermaid
+# mermaid
+
+# Enregistrement manuel via RStudio 1200 pixels vers /img/tissage.png
+
+knitr::include_graphics("img/tissage.png", dpi=300)
+
 ```
 
 Plus précisément, les modifications apportées concernent :
 
-- reprendre les éléments du texte qui ont bougés.
+- en introduction : une clarification du projet de l'auteur (l'article propose un réflexion sur la formation des enseignants en tentant de rapprocher et comprendre les liens possibles entre des concepts encore distants) 
+- en introduction : une présentation du paysage de notions qui sont convoquées dans l'article afin de poser un décor dont on va assumer qu'il regroupe des notions diverses engagées dans la réflexion sur la formation des enseignants et la question du bonheur d'enseigner.
+- dans chaque transition (à 8 reprises dans l'article) : une explicitation des liens entre les concepts proposés afin de quitter la sensation d'heuristique et présenter clairement les relations théoriques tissées.
 
-Cette révision est connectée à : 
-
-- citer les autres commentaires qui ont été pris en compte pour réviser.
+Par leur grande portée dans la révision de l'article, les modifications issues de ce commentaire 1-2 de révision sont liées aux autres commentaires suivants : 2-1, 2-2, 3-2, 5-2, 6-1.
 
 ## Structure du texte
 
@@ -102,13 +147,22 @@ Le texte comporte une introduction mais on aurait souhaité que l’auteur annon
 
 ### Commentaire 2-1 - Réponse et modifications apportées
 
-...
+Nous remercions la personne chargée de la révision. Elle met en effet le doigt sur une absence d'une annonce d'un projet de lecture clair, en introduction. Cela a été amélioré à travers la refonte de l'introduction du texte via le commentaire 1-2. Nous pensons que cette clarification oriente mieux la lecture. Cette clarification complète ainsi la table des matières de l'article.
+
+La conclusion a, dans le même esprit été mieux mise en avant. Comme proposé, nous avons remodelé le point 6 pour lui donner un statut de conclusion. Nous avons, en lien avec les commentaires de la seconde personne chargée de la révision, rajouté une information sur la nécessité, dans les perspectives, d'aller vers une prise de données liée aux thématiques développées dans l'article.
+
+Enfin, en ce qui concerne les enjeux sur les transitions et afin de mieux guider le lecteur, nous avons opté pour l'utilisation d'une troisième hiérarchie de sous-titre, telle que permise par la revue. Cela nous a permis de clarifier la structure et la rendre plus explicite.
 
 ### Commentaire 2-2 (EVA2)
 
 La structure du texte parait cohérente globalement mais lorsqu’on lit le contenu on se heurte à beaucoup de manques. Ainsi par exemple, le paragraphe 2 parle de « considération sur le bonheur d’enseigner et d’apprendre » et le sous paragraphe 1 « des pratiques de mesure du bonheur ». Ce sous paragraphe ne débouche pas sur une position de l’auteur(e) et il faut comprendre que les sous paragraphes suivants vont permettre de préciser cette question de la mesure. On comprend alors que le modèle PERMA va être mobilisé. Mais celui-ci ne permet pas de définir une telle mesure, « seulement » les dimensions à mesurer. Ainsi le paragraphe 4.1 va développer le « R » de PERMA (relation) dans le cadre de l’étude du climat de classe. Mais là encore aucun outil pragmatique n’est proposé. Cela pourrait se comprendre par l’aspect théorique du texte mais celui-ci présente des réalisation concrètes.
 Dans la même veine, l’un des exemples fournis au 5.4 mobilise les « traits de caractères personnels » comme outil théoriques pour structurer la formation. Cet outil mériterait à lui seul un cadre théorique mais il est introduit dans les exemples.
 Ainsi la richesse théorique de l’article empêche de se rendre compte de ce qui est traité réellement : comment avec quel outil et pour quel résultat avéré.
+
+<!-- je dois relire l'article, monter mon conceptogramme en parallèle puis ensuite seulement enrichir mon introduction en profondeur. Ensuite, je vais à chaque transition rajouter du solide. Je peux en lisant, marquer les transitions en rouge !! 
+Je peux maintenant voir comment je peux adresse le commentaire du 2-2 et surtout le rassurer dans ma réponse car ce 27 septembre, j'ai pas mal clarifié et structuré. Rien de nouveau dans le fond mais un contenu mieux assumé et prévisible.
+-->
+
 
 ### Commentaire 2-2 - Réponse et modifications apportées
 
