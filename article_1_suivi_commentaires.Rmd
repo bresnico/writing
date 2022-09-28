@@ -159,14 +159,14 @@ La structure du texte parait cohérente globalement mais lorsqu’on lit le cont
 Dans la même veine, l’un des exemples fournis au 5.4 mobilise les « traits de caractères personnels » comme outil théoriques pour structurer la formation. Cet outil mériterait à lui seul un cadre théorique mais il est introduit dans les exemples.
 Ainsi la richesse théorique de l’article empêche de se rendre compte de ce qui est traité réellement : comment avec quel outil et pour quel résultat avéré.
 
-<!-- je dois relire l'article, monter mon conceptogramme en parallèle puis ensuite seulement enrichir mon introduction en profondeur. Ensuite, je vais à chaque transition rajouter du solide. Je peux en lisant, marquer les transitions en rouge !! 
-Je peux maintenant voir comment je peux adresse le commentaire du 2-2 et surtout le rassurer dans ma réponse car ce 27 septembre, j'ai pas mal clarifié et structuré. Rien de nouveau dans le fond mais un contenu mieux assumé et prévisible.
+<!--  
+Je peux maintenant voir comment je peux adresser le commentaire du 2-2 et surtout le rassurer dans ma réponse car ce 27 septembre, j'ai pas mal clarifié et structuré. Rien de nouveau dans le fond mais un contenu mieux assumé et prévisible.
 -->
 
 
 ### Commentaire 2-2 - Réponse et modifications apportées
 
-...
+La richesse de ce commentaire nous permet des améliorations centrales dans l'article, merci ! En effet, à la lecture du commentaire, nous avons pu considérer l'ambiguité du projet de lecture offert au lecteur, en particulier avec des sous-titres dont le choix des mots doit être mieux réalisé. Nous avons ainsi modifié les sous-titres dans le but de clarifier ce qui est de l'ordre de la théorie ou de l'exemple et avons éliminé la question de la mesure qui n'est effectivement pas l'objet de cet article. Dans nos modifications, notre ligne a été de correspondre à la phrase suivante, rédigée par la personne chargée de la révision :  "Ainsi la richesse théorique de l’article empêche de se rendre compte de ce qui est traité réellement : comment avec quel outil et pour quel résultat avéré."
 
 ## Problématique
 
@@ -176,7 +176,9 @@ La question de recherche apparait dès le départ dans le titre de l’article. 
 
 ### Commentaire 3-1 - Réponse et modifications apportées
 
-...
+Merci pour ce commentaire. Cet article étant une proposition théorique de rapprochement de champs à notre sens encore peu connectés (le bonheur selon l'angle de la psychologie positive et la formation des enseignants en sciences de l'éducation), nous n'avons jamais cherché à produire un document de type "article de recherche". Ainsi, notre question de départ est bel est bien adressée à travers tout le texte, dans les propositions théoriques, en assumant les nombreux tissages possibles entre l'apprentissage du bonheur d'enseigner et l'enseignement en contextes hétérogènes. 
+
+Il nous semble que l'article correspond à une phase de "défrichage" conceptuel (phase exploratoire) de ce que le bonheur, en psychologie positive, peut offrir comme perspectives à la formation des enseignants. Nous avons ainsi clarifié les perspectives dans la conclusion de l'article.
 
 ### Commentaire 3-2 (EVA2)
 
@@ -184,18 +186,21 @@ La question fondamentale correspond au titre de l’article : « Est-il possible
 
 ### Commentaire 3-2 - Réponse et modifications apportées
 
-...
+Merci pour ce commentaire qui met le doigt sur les risques de confusion entre "bonheur des élèves" et "bonheur des enseigants". Dans la restructuration de l'article, nous avons cherché à mieux explicité aux lecteurs que l'article propose bel et bien, à travers le PERMA en tant qu'interface, des moyens "d'enseigner heureux" en contextes hétérogènes tout en nommant les conséquences positives sur le "bonheur des élèves". En clair, l'article a l'intention de proposer principalement que la formation au bonheur d'enseigner favorise l'enseignement heureux. Secondairement, cet enseignement a un effet sur les bonheur des élèves, notamment parce qu'il s'intéresse à développer ce bonheur des enfants. 
+
+Le commentaire met ensuite l'accent sur la confusion entre théorie et action. La personne chargée de la révision nous permet de voir les risques de confusion entre notre casquette de chercheur et celle de praticien. C'est un élément important que nous avons corrigé en restant résolument dans une posture de chercheur dans le texte. Ainsi, la notion de socle pédagogique a été reformulée.
+
+Le commentaire conclut en pointant "l’accumulation de considérations qui semblent dessiner un chemin mais dont on arrive pas à cerner qu’il mène à destination". C'est un élément important que nous avons considéré dans notre démarche de clarification du projet de lecture et d'accompagnement du lecteur (ajout de sous-titres, ajout de transitions en tant que balises de raisonnement). Cette démarche a été réalisée dans notre souhait de mieux guider la lecture dans un article qui manie en effet de nombreux et nécessaires concepts pour donner matière à penser la complexité de la formation des enseignants et le bonheur d'enseigner.
 
 ## Cadre théorique
 
 ### Commentaire 4-1 (EVA1)
 
 Le cadre théorique est très clair et exposé de manière dynamique dans le 2.3, « Bonheur à l’école et modèle PERMA ». Après avoir exposé les modèles du bien-être subjectif et psychologique, l’auteur-e fait le choix d’inscrire sa perspective dans le modèle de la psychologie positive proposé par Martin Seligman. Ensuite il ou elle explicite ce modèle en cinq dimensions en montrant à chaque fois en quoi chacune de ces dimensions constitue ou peut contribuer à l’intelligibilité des questions en sciences de l’éducation en particulier les questions du sens des apprentissages, la différenciation pédagogique, les relations entre élèves mais aussi à celle du rôle de l’enseignant dans son propre développement. L’objectif de la recherche est indiqué et justifié.
- 
 
 ### Commentaire 4-1 - Réponse et modifications apportées
 
-...
+Merci pour ce commentaire qui met en évidence notre intention de rapprocher sciences de l'éducation et psychologie positive à travers le modèle PERMA en tant qu'interface. 
 
 ### Commentaire 4-2 (EVA2)
 
@@ -203,10 +208,9 @@ Beaucoup de concepts sont définis en relation à des références explicites. I
 
 ### Commentaire 4-2 - Réponse et modifications apportées
 
-...
+Merci, en effet, notre proposition d'article constitue une proposition de rapprochement théorique entre des domaines (sciences de l'éducation et psychologie positive) qui se comprennent encore peu. Les tissages ainsi proposés correspondent à une démarche de mise en évidence des mécanismes possibles entre bonheur et formation au bonheur d'enseigner. L'article, dans ses perspectives, invite à développer des recherches interdisciplinaires entres sciences de l'éducation et psychologie positive. Nous espérons ainsi soutenir humblement l'apparition de contributions plus prévisibles, en termes de forme et structure d'un article de recherche, dans le futur.
 
 ## Méthodologie ou approche théorique
-
 
 ### Commentaire 5-1 (EVA1)
 
@@ -218,7 +222,7 @@ Il y a incontestablement de mon point de vue une réelle cohérence et une adéq
 
 ### Commentaire 5-1 - Réponse et modifications apportées
 
-...
+Merci pour le commentaire. Nous avons conscience que notre proposition d'article ne correspond pas à la structure académique d'un article de recherche. Nous avons explicité notre projet en introduction d'article, dans la révision, afin de guider le lecteur sur ce que l'article propose et ne propose pas.
 
 ### Commentaire 5-2 (EVA2)
 
@@ -230,7 +234,9 @@ Comme dit précédemment, beaucoup trop de concepts sont mobilisés dans le text
 
 ### Commentaire 5-2 - Réponse et modifications apportées
 
-...
+Nous remercions la personne chargée de la révision pour ce commentaire détaillé. En effet, l'article n'a pas été construit selon la structure d'une article de recherche académique. Il s'agit bien d'une proposition de rapprochement conceptuel dans des domaines encore peu reliés (les sciences de l'éducation et la psychologie positive). Nous avons clarifié le projet de lecture en introduction et dans les transitions pour éviter une interprétation erronée de ce que ce texte apporte comme contibution à la question du bonheur d'enseigner.
+
+Le commentaire évoque le "coeur théorique de l'affaire" comment étant difficilement identifiable et, à travers le conceptogramme proposé plus haut et qui nous a servi de "feuille de route", nous avons repensé et formulé les transitions entre les divers parties de l'article pour faciliter l'accès à la compréhension des tissages proposés entre le champ de la psychologie positive et le champ des sciences de l'éducation. Ainsi, le point nodal de l'article ne se propose pas d'être, classiquement, une question de recherche précise, mais il constitue bel et bien ce réseau de tissages qui permet, c'est notre intention, de penser conceptuellement bonheur et bonheur d'enseigner à travers les dimensions du modèle PERMA.
 
 ## Interprétation / Discussion
 
@@ -241,7 +247,7 @@ Ce critère est difficilement identifiable dans cet article réflexif. Mais on p
 
 ### Commentaire 6-1 - Réponse et modifications apportées
 
-...
+Merci de considérer cet article comme un article réflexif. Il s'agit bel et bien de l'origine de notre projet de rédaction et nous avons cherché à le rendre visible au lecteur dans l'introduction remodelée de la version révisée.
 
 ### Commentaire 6-2 (EVA2)
 
@@ -249,7 +255,7 @@ Il n’y a pas vraiment de discussion puisqu’il n’y a pas de résultats.
 
 ### Commentaire 6-2 - Réponse et modifications apportées
 
-...
+C'est en effet le cas. Et nous avons cherché à lever le malentendu dans la version révisée. Notre intention première était de proposer un article réflexif. Nous avons donc, dans la ligne de ce commentaires et de ceux qui le précèdent, clarifié le projet de lecture en introduction de l'article. Nous avons également proposé des perspectives pour soutenir de futures recherches sur des éléments précis du paysage conceptuel tissé que nous avons voulu proposer au fil des lignes. Notre priorité a également été de quitter l'impression d'heuristique et de permettre la compréhension des ponts possibles entre sciences de l'éducation et psychologie positive (tissage).
 
 ## Forme de l’article
 
@@ -263,7 +269,11 @@ Il n’y a pas vraiment de discussion puisqu’il n’y a pas de résultats.
 
 ### Modifications réalisées (7-0)
 
-...
+- Respect des normes APA dans la bibliographie : OK, révisé.
+- Titre en français et en anglais : OK, ajouté.
+- Résumé en français et en anglais : OK, ajouté.
+- Présence de Mots-clés : déjà OK, non modifié.
+- Nombre de signes égal ou inférieur à 70 000 : déjà OK toujours OK après la révision
 
 ## Appréciation générale du texte
 
@@ -273,7 +283,7 @@ Voir appréciation globale du texte
 
 ### Commentaire 8-1 - Réponse et modifications apportées
 
-...
+Rien à signaler.
 
 ### Commentaire 8-2 (EVA2)
 
@@ -281,6 +291,8 @@ Ce texte qui comporte des réflexions et des exemples intéressants ne correspon
 
 ### Commentaire 8-2 - Réponse et modifications apportées
 
-...
+Nous remercions la personne chargée de la révision de relever les apports possibles de ce texte à travers la mention de réflexions et exemples intéressants. Nous avons, à travers ses commentaires et la révision, travaillé dans le but de (1) clarifier le projet de lecture aux lecteurs et (2) expliciter les tissages entre les domaines des sciences de l'éducation et de la psychologie positive qui se fréquentent encore peu. 
+
+Plus précisément, la version modifiée a été travaillée dans le but de proposer un article qui assume son identité de "réflexion initiale" pouvant constituer une balise de départ pour démarrer des recherches plus spécifiques dans le but de mieux comprendre comment l'on peut s'emparer de l'apprentissage du bonheur d'enseigner en formation initiale des enseignants.
 
 

@@ -238,7 +238,7 @@ Dans un contexte d'inclusion scolaire, il y a lieu de chercher à comprendre com
 En résumé, il y a lieu de former des personnes aptes à voir la gestion de l'hétérogénéité comme une chance ou un terrain d'opportunités pour faire une différence dans les parcours scolaires et moins comme un défi contraignant.
 C'est en ce sens que nous proposons plus bas de considérer le modèle PERMA et certaines pratiques de psychologie positive comme des leviers permettant de penser et concrétiser le développement du bonheur d'enseigner en formation initiale des enseignants.
 
-## Pratiques de mesure du bonheur
+## Place du bonheur dans l'évaluation de la qualité des formations
 
 Encore relativement peu prolixes sur ces enjeux, les instituts de formation à l'enseignement en Suisse romande documentent régulièrement la qualité de leurs dispositifs.
 Pour attester de la qualité, les rapports se fondent volontiers sur le taux d'employabilité des personnes formées ou le taux de satisfaction durant le cursus [voir, par exemple, @voirol-rubido2020].
@@ -442,8 +442,8 @@ Dans ce sens et selon les évolutions actuelles, l'inclusion scolaire se démarq
 Autrement dit, l'école prend en compte les besoins spécifiques des élèves pour favoriser une différenciation au sein du groupe et non en séparant les élèves en fonction des diagnostics ou troubles [@pelgrims2013; @kalubi2017].
 Dans ce contexte, l'inclusion peut être définie comme un tout dans lequel chacun est inclus dès le départ [@tremblay2012; @doudin2009; @lafortune2006].
 
-Cet aspect de participation à la vie scolaire avec une prise en considération active de la diversité constitue notre socle pédagogique sur lequel développer la notion de bonheur d'enseigner et d'apprendre. 
-C'est pourquoi, dans le cadre de l'inclusion où chacun vit avec ses différences au sein d'un même groupe, il est nécessaire de comprendre comment observer les relations dans la classe et leur développement.
+Cet aspect de participation à la vie scolaire avec une prise en considération active de la diversité constitue le cadre de référence dans lequel développer la notion de bonheur d'enseigner et d'apprendre. 
+C'est pourquoi s'inscrire dans l'inclusion, où chacun vit avec ses différences au sein d'un même groupe, nous amène à devoir comprendre comment observer les relations dans la classe et leur développement.
 
 En ce sens, la notion de climat de classe est appropriée.
 Nous la développons à présent afin de disposer des balises théoriques nécessaires à la suite de notre argumentation sur le bonheur d'enseigner.
@@ -514,7 +514,10 @@ Ces considérations sur le climat de classe et son principe actif qu'est la rela
 
 # Formation des enseignants et rôle du bonheur
 
-L'épanouissement passe par la relation.
+Jusqu'ici, nous avons pu formuler des tissages impliquant le bonheur et les postures relationnelles qui peuvent le nourrir 
+Un mécanisme relationnel important apparaît : le fait de développer le bonheur d'enseigner passe par le fait de favoriser le bonheur d'apprendre.
+Autrement dit, l'épanouissement passe par la relation.
+
 C'est ce que le modèle PERMA du bonheur semble indiquer [@seligman2011].
 A l'école, le lien que les enseignants entretiennent avec leurs élèves permet de générer des émotions positives, donner du sens aux apprentissages et favoriser l'engagement des enfants par l'ajustement constant du dispositif pédagogique.
 
@@ -529,19 +532,15 @@ Elles étudient et mettent en évidence des activités propices à développer d
 Elles permettent également de dégager des postures intellectuelles qui favorisent la prise de distance avec les réponses automatiques liées, par exemple, à la colère.
 Ceci peut être utile pour garantir une posture bienveillante dans la relation, par exemple, indépendamment de l'état émotionnel des acteurs.
 
-## Entraînement conscient au bonheur
+## Aborder conjointement interventions de psychologie positive et développement de l'identité professionnelle
 
-Dans cette partie, nous proposons de détailler une série de pratiques de formation telles qu'elles peuvent être observées en Suisse francophone notamment.
-Ces pratiques nous semblent favorables à l'apprentissage du bonheur d'enseigner.
-Elles s'inspirent parfois de travaux en psychologie positive et se basent pour l'essentiel sur ce que l'on nomme la pratique réflexive (c'est-à-dire la réflexion structurée et instumentée sur sa pratique professionnelle).
-
-## Programmes d'intervention et pratique réflexive
-
-Penser conjointement pratique réflexive et programmes de psychologie positive paraît être une option intéressante pour apprendre à enseigner heureux.
-Les programmes de psychologie positive ne risquent d'être que des entrainements ponctuels si un retour formel sur l'activité n'est pas partie prenante du dispositif.
+Penser conjointement le développement de l'identité professionnelle et domaines d'intervention issus de la psychologie positive paraît être une option intéressante pour apprendre à enseigner heureux.
+Les propositions issues de psychologie positive ne risquent d'être que des entrainements ponctuels si un retour formel sur l'activité n'est pas partie prenante du dispositif, dans le but d'observer comment celle-ci impact l'identité professionnelle en développement.
 Pour donner leur plein potentiel, il est nécessaire que les futurs enseignants apprennent, en parallèle aux programme d'intervention, à observer leurs représentations du métier ou leurs croyances et valeurs pour éventuellement les dépasser.
 Dans un tel contexte, il est possible de proposer aux futurs enseignants d'expérimenter des postures professionnelles et d'être attentifs aux effets sur eux-mêmes et leurs élèves lors de stages en cours de formation, par exemple.
 En outre, la formation doit s'accompagner d'une authentique introspection qui permet aux personnes de saisir profondément quels sont les enjeux émotionnels et éthiques qui influencent leurs actions.
+C'est ce que l'on peut considérer comme une pratique réflexive du métier.
+
 On proposera par exemple aux futurs enseignants de jouer des saynètes de la vie scolaire en milieu non-jugeant et de relater leurs ressentis [@carrupt2018; @shankland2017].
 Dans ces exercices bien contrôlés, on proposera des techniques de régulation des émotions ou des stratégies de réorientation attentionnelle [@bressoud2020c]. Des pratiques de gratitude pourront également être testées et documentées [@shankland2016b].
 A chaque fois, on proposera aux participants de prendre note des effets des techniques mises en œuvre.
@@ -551,7 +550,7 @@ Toutefois, il apparaît clair que les aspects affectifs peuvent jouer un rôle d
 Ainsi, nous soutenons d'une part que le bonheur d'enseigner se joue dans la relation.
 D'autre part, nous ajoutons que la qualité des relations dépend des compétences socioémotionnelles de l'enseignant.
 
-## Un exemple en formation des enseignants 
+## Focalisation sur un exemple précis en formation des enseignants 
 
 La Haute école pédagogique du Valais (HEP-VS) est un des cinq instituts de formation des enseignants de Suisse romande.
 Au sein de cet établissement, le cursus de formation des enseignants propose depuis plus de cinq ans des dispositifs traitant explicitement du développement des compétences socioémotionnelles des futurs enseignants.
@@ -579,11 +578,16 @@ Sans quoi, l'apprentissage du bonheur d'enseigner durant la formation pourrait n
 C'est pourquoi un dispositif pédagogique a été développé pour mêler à la fois la question de l'inclusion scolaire, les relations entre personnes et l'épanouissement de chacun.
 Il s'agit d'un programme autour des forces personnelles [@peterson2004].
 
-## Formation des enseignants et climat de classe : l'exemple des forces de caractère
+## Formation des enseignants et climat de classe : le cas des forces de caractère
 
-Dans une école aux visées inclusives, les enjeux relationnels, qui sont au centre du développement du bonheur, ont un rôle crucial.
+Le cas des forces de caractère constitue un domaine de recherche qui mérite à lui seul un article complet.
+Toutefois, dans ce texte, nous le convoquons succinctement dans le but de préciser comment il peut être introduit en formation des enseignants et en quoi il joue un rôle de catalyseur d'épanouissement de l'enseignant (et ses élèves) à travers les relations.
+
+Dans une école aux visées inclusives, les enjeux relationnels, qui sont au centre du développement du bonheur, ont donc un rôle crucial.
 Le bonheur prospère, nous l'avons vu avec le modèle PERMA, à travers l'authenticité des relations, le sens des activités, le sentiment de compétence ou encore le sentiment de participation.
 Ainsi, il y a lieu de voir comment les enseignants peuvent soutenir leur propre mise en capacité (ou *empowerment*) ainsi que celle de leurs élèves dans ce réseau d'interdépendances que l'on veut positives.
+
+### Forces de caractère - contexte, définition et exemples
 
 Peterson et Seligman [-@peterson2004] ont développé une recension de traits de caractère personnels qui joueraient un rôle dans le développement du bonheur individuel et collectif.
 Il s'agit des forces de caractère.
@@ -594,6 +598,7 @@ A travers cette recension et appuyés par une communauté scientifique attachée
 On pourra consulter les travaux de Ryan Niemiec [-@niemiec2019a] pour une revue.
 Dans les interventions sur les forces personnelles, les participants apprennent généralement à identifier des ressources personnelles dont ils avaient négligé l'existence.
 Ils apprennent à prendre appui sur ces ressources pour mener à bien leurs activités.
+
 On peut citer l'exemple - inspiré de fait réels - d'un enseignant tout à fait déprimé par son incapacité à faire rire ses élèves, en comparaison avec son voisin de palier qui sait faire de l'humour.
 En apprenant à reconnaître ses forces, cet enseignant re-découvre son goût de l'apprentissage.
 Il se souvient que ses meilleures expériences professionnelles se passent lorsqu'il peut partager son intérêt pour l'histoire et la géographie.
@@ -626,7 +631,7 @@ Ce sont des perspectives réjouissantes pour le développement d'écoles inclusi
 L'avenir est donc radieux.
 Il est possible de considérer la formation des futurs enseignants comme un espace où l'on apprendre à enseigner heureux.
 
-Cet article reste une modeste proposition de rapprochement  conceptuel.
+Cet article reste une modeste proposition de rapprochementconceptuel.
 Les perspectives qui peuvent en découler concernent la mise en oeuvre de dispositifs de mesures aptes à appréhender si les effets sont à la hauteur des attentes.
 
 # Références
