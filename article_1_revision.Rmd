@@ -210,7 +210,7 @@ Ainsi, l'enjeu est double :
 Dans cette proposition théorique, la notion de bonheur est étroitement liée à celle de bien-être.
 Les différences conceptuelles sont proposées tout en soulignant les zones de confusion.
 Comme balise conceptuelle, nous convoquerons le modèle PERMA (Seligman, 2011).
-Ce modèle se propose de caractériser et mesurer le bien-être à travers 5 dimensions qui seront développées plus loin : les émotions positives, l'engagement, les relations positives, le sens, l'accomplissement.
+Ce modèle se propose de caractériser le bien-être à travers 5 dimensions qui seront développées plus loin : les émotions positives, l'engagement, les relations positives, le sens, l'accomplissement.
 
 La convocation du modèle PERMA servira de connecteur logique entre deux champs encore très distincts.
 D'un côté, nous considérerons les aspects liés au bien-être ainsi que les leviers, en termes de programmes d'intervention, pour développer le bonheur, à partir du champ de la psychologie positive.
@@ -334,7 +334,7 @@ Différents auteurs, en particulier Peggy Kern [-@kerninpress], ont repris et ad
 
 Le modèle PERMA (ou PERMAH selon les versions) vise à mieux comprendre le bonheur humain sous l'angle de l'épanouissement.
 Il prend en compte les aspects de confort, de plaisir et aussi la question du sens de ses actions.
-Il est bien positionné pour définir et mesurer les pratiques de psychologie positive en contexte scolaire. 
+Il est bien positionné pour définir les pratiques de psychologie positive en contexte scolaire. 
 Le PERMA permet de saisir la question du bonheur à travers cinq dimensions. 
 
 ### PERMA - dimension des émotions positives
