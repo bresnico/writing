@@ -55,9 +55,9 @@ De manière générale ce texte manipule trop de concepts ce qui empêche d’en
 
 ### Commentaire 1-2 - Réponse et modifications apportées
 
-Merci pour cette description. La personne en charge de la révision présente en effet l'alignement des concepts en pointant le manque de lien entre eux. Ce commentaire a été central dans la refonte du texte. Il a guidé notamment l'ajout de transitions entre les notions et la restructuration hiéarchique des différentes parties.
+Merci pour cette description. La personne en charge de la révision présente en effet l'alignement des concepts en pointant le manque de lien entre eux. Ce commentaire a été central dans la refonte du texte. Il a guidé notamment l'ajout de transitions entre les notions et la restructuration hiérarchique des différentes parties.
 
-Le conceptogramme suivant a été rédigé dans le but de mieux expliciter les notions pour quitter l'impression d'assertions et d'heuristique justement relevée :
+Le conceptogramme suivant a été rédigé dans le but de mieux expliciter les notions pour quitter l'impression d'assertions et d'heuristique justement relevées :
 
 ```{r mermaid, echo=F}
 library(DiagrammeR)
@@ -133,8 +133,8 @@ knitr::include_graphics("img/tissage.png", dpi=300)
 
 Plus précisément, les modifications apportées concernent :
 
-- en introduction : une clarification du projet de l'auteur (l'article propose un réflexion sur la formation des enseignants en tentant de rapprocher et comprendre les liens possibles entre des concepts encore distants) 
-- en introduction : une présentation du paysage de notions qui sont convoquées dans l'article afin de poser un décor dont on va assumer qu'il regroupe des notions diverses engagées dans la réflexion sur la formation des enseignants et la question du bonheur d'enseigner.
+- en introduction : une clarification du projet de l'auteur (l'article propose une réflexion sur la formation des enseignants en se donnant comme mission de formuler et comprendre les liens possibles entre des concepts de champs encore distants) 
+- en introduction : une présentation du paysage des notions qui sont convoquées dans l'article afin de poser un décor dont on va assumer qu'il regroupe des notions diverses engagées dans la réflexion sur la formation au bonheur d'enseigner et la question du bonheur en tant qu'objet de recherche indépendant.
 - dans chaque transition (à 8 reprises dans l'article) : une explicitation des liens entre les concepts proposés afin de quitter la sensation d'heuristique et présenter clairement les relations théoriques tissées.
 
 Par leur grande portée dans la révision de l'article, les modifications issues de ce commentaire 1-2 de révision sont liées aux autres commentaires suivants : 2-1, 2-2, 3-2, 5-2, 6-1.
@@ -149,9 +149,9 @@ Le texte comporte une introduction mais on aurait souhaité que l’auteur annon
 
 Nous remercions la personne chargée de la révision. Elle met en effet le doigt sur une absence d'une annonce d'un projet de lecture clair, en introduction. Cela a été amélioré à travers la refonte de l'introduction du texte via le commentaire 1-2. Nous pensons que cette clarification oriente mieux la lecture. Cette clarification complète ainsi la table des matières de l'article.
 
-La conclusion a, dans le même esprit été mieux mise en avant. Comme proposé, nous avons remodelé le point 6 pour lui donner un statut de conclusion. Nous avons, en lien avec les commentaires de la seconde personne chargée de la révision, rajouté une information sur la nécessité, dans les perspectives, d'aller vers une prise de données liée aux thématiques développées dans l'article.
+La conclusion a, dans le même esprit, été mieux mise en avant. Comme proposé, nous avons remodelé le point 6 pour lui donner un statut de conclusion. Nous avons, en lien avec les commentaires de la seconde personne chargée de la révision, rajouté une information sur la nécessité, dans les perspectives, d'aller vers une prise de données liées aux thématiques développées dans l'article.
 
-Enfin, en ce qui concerne les enjeux sur les transitions et afin de mieux guider le lecteur, nous avons opté pour l'utilisation d'une troisième hiérarchie de sous-titre, telle que permise par la revue. Cela nous a permis de clarifier la structure et la rendre plus explicite.
+Enfin, en ce qui concerne les enjeux sur les transitions et afin de mieux guider le lecteur, nous avons opté pour l'utilisation d'une troisième hiérarchie de sous-titres, telle que permise par la revue. Cela nous a permis de clarifier la structure et la rendre plus explicite.
 
 ### Commentaire 2-2 (EVA2)
 
@@ -166,7 +166,7 @@ Je peux maintenant voir comment je peux adresser le commentaire du 2-2 et surtou
 
 ### Commentaire 2-2 - Réponse et modifications apportées
 
-La richesse de ce commentaire nous permet des améliorations centrales dans l'article, merci ! En effet, à la lecture du commentaire, nous avons pu considérer l'ambiguité du projet de lecture offert au lecteur, en particulier avec des sous-titres dont le choix des mots doit être mieux réalisé. Nous avons ainsi modifié les sous-titres dans le but de clarifier ce qui est de l'ordre de la théorie ou de l'exemple et avons éliminé la question de la mesure qui n'est effectivement pas l'objet de cet article. Dans nos modifications, notre ligne a été de correspondre à la phrase suivante, rédigée par la personne chargée de la révision :  "Ainsi la richesse théorique de l’article empêche de se rendre compte de ce qui est traité réellement : comment avec quel outil et pour quel résultat avéré."
+La richesse de ce commentaire nous permet des améliorations centrales dans l'article, merci ! En effet, à la lecture du commentaire, nous avons pu considérer l'ambiguité du projet de lecture offert au lecteur, en particulier avec des sous-titres dont le choix des mots doit être mieux réalisé. Nous avons ainsi modifié les sous-titres dans le but de clarifier ce qui est de l'ordre de la théorie ou de l'exemple et avons éliminé la question de la mesure qui n'est effectivement pas l'objet de cet article. Dans nos modifications, notre ligne a été de correspondre à la phrase suivante, rédigée par la personne chargée de la révision :  "Ainsi la richesse théorique de l’article empêche de se rendre compte de ce qui est traité réellement : comment avec quel outil et pour quel résultat avéré."
 
 ## Problématique
 
@@ -176,7 +176,7 @@ La question de recherche apparait dès le départ dans le titre de l’article. 
 
 ### Commentaire 3-1 - Réponse et modifications apportées
 
-Merci pour ce commentaire. Cet article étant une proposition théorique de rapprochement de champs à notre sens encore peu connectés (le bonheur selon l'angle de la psychologie positive et la formation des enseignants en sciences de l'éducation), nous n'avons jamais cherché à produire un document de type "article de recherche". Ainsi, notre question de départ est bel est bien adressée à travers tout le texte, dans les propositions théoriques, en assumant les nombreux tissages possibles entre l'apprentissage du bonheur d'enseigner et l'enseignement en contextes hétérogènes. 
+Merci pour ce commentaire. Cet article étant une proposition théorique de rapprochement de champs à notre sens encore peu connectés (le bonheur selon l'angle de la psychologie positive et la formation des enseignants en sciences de l'éducation), nous n'avons jamais cherché à produire un document de type "article de recherche". Ainsi, notre question de départ est bel et bien adressée à travers tout le texte, dans les propositions théoriques, en assumant les nombreux tissages possibles entre l'apprentissage du bonheur d'enseigner et l'enseignement en contextes hétérogènes. 
 
 Il nous semble que l'article correspond à une phase de "défrichage" conceptuel (phase exploratoire) de ce que le bonheur, en psychologie positive, peut offrir comme perspectives à la formation des enseignants. Nous avons ainsi clarifié les perspectives dans la conclusion de l'article.
 
@@ -186,7 +186,7 @@ La question fondamentale correspond au titre de l’article : « Est-il possible
 
 ### Commentaire 3-2 - Réponse et modifications apportées
 
-Merci pour ce commentaire qui met le doigt sur les risques de confusion entre "bonheur des élèves" et "bonheur des enseigants". Dans la restructuration de l'article, nous avons cherché à mieux explicité aux lecteurs que l'article propose bel et bien, à travers le PERMA en tant qu'interface, des moyens "d'enseigner heureux" en contextes hétérogènes tout en nommant les conséquences positives sur le "bonheur des élèves". En clair, l'article a l'intention de proposer principalement que la formation au bonheur d'enseigner favorise l'enseignement heureux. Secondairement, cet enseignement a un effet sur les bonheur des élèves, notamment parce qu'il s'intéresse à développer ce bonheur des enfants. 
+Merci pour ce commentaire qui met le doigt sur les risques de confusion entre "bonheur des élèves" et "bonheur des enseigants". Dans la restructuration de l'article, nous avons cherché à mieux expliciter aux lecteurs que l'article propose bel et bien, à travers le PERMA en tant qu'interface, des moyens "d'enseigner heureux" en contextes hétérogènes tout en nommant les conséquences positives sur le "bonheur des élèves". En clair, l'article a l'intention de proposer principalement que la formation au bonheur d'enseigner favorise l'enseignement heureux. Secondairement, cet enseignement a un effet sur les bonheur des élèves, notamment parce qu'il s'intéresse à développer ce bonheur des enfants. 
 
 Le commentaire met ensuite l'accent sur la confusion entre théorie et action. La personne chargée de la révision nous permet de voir les risques de confusion entre notre casquette de chercheur et celle de praticien. C'est un élément important que nous avons corrigé en restant résolument dans une posture de chercheur dans le texte. Ainsi, la notion de socle pédagogique a été reformulée.
 
@@ -208,7 +208,7 @@ Beaucoup de concepts sont définis en relation à des références explicites. I
 
 ### Commentaire 4-2 - Réponse et modifications apportées
 
-Merci, en effet, notre proposition d'article constitue une proposition de rapprochement théorique entre des domaines (sciences de l'éducation et psychologie positive) qui se comprennent encore peu. Les tissages ainsi proposés correspondent à une démarche de mise en évidence des mécanismes possibles entre bonheur et formation au bonheur d'enseigner. L'article, dans ses perspectives, invite à développer des recherches interdisciplinaires entres sciences de l'éducation et psychologie positive. Nous espérons ainsi soutenir humblement l'apparition de contributions plus prévisibles, en termes de forme et structure d'un article de recherche, dans le futur.
+Merci, en effet, notre proposition d'article constitue une proposition de rapprochement théorique entre des domaines (sciences de l'éducation et psychologie positive) qui se comprennent encore peu. Les tissages ainsi proposés correspondent à une démarche de mise en évidence des mécanismes possibles entre bonheur et formation au bonheur d'enseigner. L'article, dans ses perspectives, invite à développer des recherches interdisciplinaires entre sciences de l'éducation et psychologie positive. Nous espérons ainsi soutenir humblement l'apparition de contributions plus prévisibles, en termes de forme et structure d'un article de recherche.
 
 ## Méthodologie ou approche théorique
 
@@ -222,7 +222,7 @@ Il y a incontestablement de mon point de vue une réelle cohérence et une adéq
 
 ### Commentaire 5-1 - Réponse et modifications apportées
 
-Merci pour le commentaire. Nous avons conscience que notre proposition d'article ne correspond pas à la structure académique d'un article de recherche. Nous avons explicité notre projet en introduction d'article, dans la révision, afin de guider le lecteur sur ce que l'article propose et ne propose pas.
+Merci pour le commentaire. Nous avons conscience que notre proposition d'article ne correspond pas à la structure académique d'un article de recherche. Nous avons explicité notre projet en introduction d'article, dans la version révisée, afin de guider le lecteur sur ce que l'article propose et ne propose pas.
 
 ### Commentaire 5-2 (EVA2)
 
@@ -291,7 +291,7 @@ Ce texte qui comporte des réflexions et des exemples intéressants ne correspon
 
 ### Commentaire 8-2 - Réponse et modifications apportées
 
-Nous remercions la personne chargée de la révision de relever les apports possibles de ce texte à travers la mention de réflexions et exemples intéressants. Nous avons, à travers ses commentaires et la révision, travaillé dans le but de (1) clarifier le projet de lecture aux lecteurs et (2) expliciter les tissages entre les domaines des sciences de l'éducation et de la psychologie positive qui se fréquentent encore peu. 
+Nous remercions la personne chargée de la révision de relever les apports possibles de ce texte à travers la mention de réflexions et exemples intéressants. Nous avons, à travers ses commentaires et la révision, travaillé dans le but de (1) clarifier le projet de lecture aux lecteurs et (2) expliciter les tissages entre les domaines des sciences de l'éducation et de la psychologie positive, domaines qui se fréquentent encore peu. 
 
 Plus précisément, la version modifiée a été travaillée dans le but de proposer un article qui assume son identité de "réflexion initiale" pouvant constituer une balise de départ pour démarrer des recherches plus spécifiques dans le but de mieux comprendre comment l'on peut s'emparer de l'apprentissage du bonheur d'enseigner en formation initiale des enseignants.
 
